@@ -1,10 +1,5 @@
 import React from 'react';
-// import FaceBookLogo from 'images/facebookVector.svg';
-// import TwitterLogo from 'images/twitterVector.svg';
-// import LinkedinLogo from 'images/linkedin 1vec.svg';
-// import InstagramLogo from 'images/instagram 1vec.svg';
-// import YoutubeLogo from 'images/youtube-logotype.svg';
-// import VimeoLogo from 'images/vimeo 1vec.svg';
+
 
 const footer = () => {
     return(
