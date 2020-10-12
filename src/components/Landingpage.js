@@ -1,6 +1,5 @@
 import React from 'react';
-// import Logo from 'src/logo.svg';
-// import Image from 'src/menu_24px.svg';
+
 
 
 const homePage = () =>{
