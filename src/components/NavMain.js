@@ -1,16 +1,16 @@
 import React from 'react';
-import {link, withRouter} from 'react-router-dom';
+import {Link, withRouter} from 'react-router-dom';
 
 const Navigation = () => {
     return(
         <div className="header">
             <nav>
-                <link class="learnhome" to = "/Learnable">Learnable</link>
-                <link class="agora">Agora</link>
-                <link class="startzone">StartZone</link>
-                <link class="about">About</link>
-                <link class="contact">Contact</link>
-                <link class="devstudio">Dev Studio</link>
+                <Link class="learnhome" to = "/Learnable">Learnable</Link>
+                <Link class="agora" to="/">Agora</Link>
+                <Link class="startzone" to="/">StartZone</Link>
+                <Link class="about" to="/">About</Link>
+                <Link class="contact" to="/">Contact</Link>
+                <Link class="devstudio" to="/">Dev Studio</Link>
             </nav> 
         </div>
     );
