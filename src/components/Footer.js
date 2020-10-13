@@ -1,4 +1,11 @@
 import React from 'react';
+import Dev from "./images/todevstud.png";
+import Twitter from "./images/twitterVector.svg";
+import Facebook from "./images/facebookVector.svg";
+import LinkedIn from "./images/linkedin 1vec.svg";
+import Instagram from "./images/instagram 1vec.svg";
+import YouTube from "./images/youtube-logotype 1.svg";
+import Vimeo from "./images/vimeo 1vec.svg";
 
 
 const footer = () => {
@@ -9,7 +16,7 @@ const footer = () => {
                 <a href="#">APPLY YOUR KNOWLEDGE</a>
                 <a href="#">FAQ</a>
 
-                <img id="footer_img" src="todevstud.png" alt=""/>
+                <img id="footer_img" src={Dev}/>
 
                 <p>
                     Learnable is proud to be a collaborative
@@ -27,12 +34,12 @@ const footer = () => {
                 <a href="#" >GET IN TOUCH</a>
 
                 <div>
-                    <img src="src/images/facebookVector.svg"/>
-                    <img src="src/images/instagram 1vec.svg"/>
-                    <img src="src/images/linkedin 1vec.svg"/>
-                    <img src="src/images/twitterVector.svg"/>
-                    <img src="src/images/youtube-logotype.svg"/>
-                    <img src="src/images/vimeo 1vec.svg"/>
+                    <img src={Twitter}/>
+                    <img src={Facebook}/>
+                    <img src={LinkedIn}/>
+                    <img src={Instagram}/>
+                    <img src={YouTube}/>
+                    <img src={Vimeo}/>                   
                 </div>
             </footer>
     );

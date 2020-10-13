@@ -1,5 +1,13 @@
 import React from 'react';
-import NavMain from './NavMain';
+import Rectangle from "./images/Rectangle 36.png";
+import Photo from "./images/Photo.png";
+import Agora from "./images/agora.png";
+import StartZone from "./images/startzone.png";
+import Ignite from "./images/genesys ignite.png";
+import Ville from "./images/codeville.png";
+import Pink from "./images/pinkcode.png";
+import Team from "./images/besteam.png";
+
 
 
 
@@ -13,7 +21,7 @@ const homePage = () =>{
                     Nigerian Techies and Opportunities
                     To Grow And Innovate.
                 </p>
-                <img id="first_image" src="src/images/Rectangle 36.png"/>
+                <img id="first_image" src={Rectangle} />
                 <p>We understand that opportunities are 
                     scarece in these parts. We are either creating or exposing our 
                     people to these opportunities.
@@ -22,19 +30,19 @@ const homePage = () =>{
 
             {/* learnable details*/}
             <section className="learnable">
-                <img id="learn" src="src/images/photo.png"/>
+                <img src={Photo}/>
                 <h3>Learnable</h3>
                 <p>
                     Every year, young Nigerians are launching
                     new careers in technology industry.
                     Find out how Genesy is helping them do it.
                 </p>
-                <a href="#">LEARN MORE</a>
+                <a href="/Learnable">LEARN MORE</a>
             </section>
 
             {/* the agora details*/}
             <section className="agora">
-                <img id="the_agora" src="src/images/agora.png"/>
+                <img id="the_agora" src={Agora} />
                 <h3>Agora</h3>
                 <p>
                     We are reimagining the workplace and how
@@ -46,7 +54,7 @@ const homePage = () =>{
 
             {/* startzone details*/}
             <section className="startzone">
-                <img id="start_zone" src="src/images/startzone.png"/>
+                <img id="start_zone" src={StartZone} />
                 <h3>StartZone</h3>
                 <p>
                     The business environment is harsh for
@@ -60,21 +68,21 @@ const homePage = () =>{
             <section className="others">
                 <h1>Other Things We Do</h1>
                 {/* genesysignite imagery */}
-                <img id="ignite" src="src/images/genesys ignite.png"/>
+                <img id="ignite" src={Ignite} />
                 <a href="#">Genesys Ignite</a>
 
                 {/* codeville imagery */}
-                <img id="code_ville" src="src/images/codeville.png"/>
+                <img id="code_ville" src={Ville}/>
                 <a href="#">Codeville</a>
 
                 {/* summer code imagery */}
-                <img id="pink_" src="src/images/pinkcode.png"/>
+                <img id="pink_" src={Pink}/>
                 <a href="#">Pink Summer of Code</a>
             </section>
 
             {/* showing the team */}
             <section className="team">
-                <img id="team_" src="src/images/besteam.png"/>
+                <img id="team_" src={Team}/>
                 <h1>The Best Team In The World</h1>
                 <p>
                     The business environment is harsh

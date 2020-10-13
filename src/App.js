@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
-// import logo from './logo.svg';
+
 // import './App.css';
 import NavMain from './components/NavMain';
 import Landingpage from './components/Landingpage';
@@ -18,8 +18,20 @@ import FAQ from './components/FAQ';
 class App extends Component{
     render(){
         return(
-            <div></div>
-        )
+            <div className="App" >
+                <Router>
+                    <NavMain/>
+                        <Switch>
+                            <Route path="/Learnable" exact component={()=> <Learnable/>}/>
+                            <Route path="/" exact component={()=> <Landingpage/>}/>
+                        </Switch>
+                    {/* <Landingpage/> */}
+
+                    <Footer/>
+                </Router>
+                
+            </div>
+        );
     }
 }
 

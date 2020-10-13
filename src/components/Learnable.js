@@ -1,13 +1,14 @@
 import React from 'react';
-import NavMain from './NavMain';
+
 import Navhome from './Navhome';
+import Footer from './Footer';
 
 const learnableHomepage=()=>{
     return(
         <div>
-            <NavMain/>
-            <Navhome/>
+            {/* <Navhome/>
 
+            <Footer/> */}
         </div>
     );
 }
