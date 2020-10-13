@@ -1,24 +1,27 @@
 import React from 'react';
 import {Link, withRouter} from 'react-router-dom';
 import Logo from "./images/logo.svg";
-import Burger from "./images/menu_24px.svg";
+
 
 const Navigation = () => {
     return(
-        <div className="header">
+        <div >
             {/* header for mobile */}
-         <img id="logo_" src={Logo}/>
-
-         {/* this image here is supposed to pop ou the nav below....??? toogle or something...*/}
-            <img id="menu_" src={Burger}/>
-                <nav>
-                    <Link class="learnhome" to = "/Learnable">Learnable</Link>
-                    <Link class="agora" to="/">Agora</Link>
-                    <Link class="startzone" to="/">StartZone</Link>
-                    <Link class="about" to="/">About</Link>
-                    <Link class="contact" to="/">Contact</Link>
-                    <Link class="devstudio" to="/">Dev Studio</Link>
-                </nav>       
+            <div className="header">
+                <img id="logo_" src={Logo}/>
+                <ul>
+                    <li> <Link class="learnhome" to = "/Learnable">Learnable</Link></li>
+                    <li><Link class="agora" to="/">Agora</Link></li>
+                    <li><Link class="startzone" to="/">StartZone</Link></li>
+                    <li><Link class="about" to="/">About</Link></li>
+                    <li><Link class="contact" to="/">Contact</Link></li>
+                    <li><Link class="devstudio" to="/">Dev Studio</Link></li>
+                </ul>
+            </div>                  
+                <div>
+                    <p>build a product with</p>
+                    <button>DEVSTUDIO</button>
+                </div>     
         </div>
     );
 }

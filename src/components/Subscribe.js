@@ -1,8 +1,10 @@
 import React from 'react';
+import Up from "./images/arrowup.svg";
 
 const subscribe=()=>{
     return(
         <div>
+             <img src={Up}/>
              {/* option for subscriptions */}
              <section className="subscribe">
                <p id="sub_link"><a href="#" >Stay up to date on what

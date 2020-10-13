@@ -1,4 +1,5 @@
 import React from 'react';
+// import {Link, withRouter} from 'react-router-dom';
 import Dev from "./images/todevstud.png";
 import Twitter from "./images/twitterVector.svg";
 import Facebook from "./images/facebookVector.svg";
@@ -11,6 +12,7 @@ import Vimeo from "./images/vimeo 1vec.svg";
 const footer = () => {
     return(
         <footer className="footer_">
+                {/* <Link class="software" to="/Softwaredeveloper">BUILD SOFTWARE</Link> */}
                 <a href="#">BUILD SOFTWARE</a>
                 <a href="#">DESIGN DIFFERENT</a>
                 <a href="#">APPLY YOUR KNOWLEDGE</a>

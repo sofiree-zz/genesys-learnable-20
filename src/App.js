@@ -27,8 +27,20 @@ class App extends Component{
                         </Switch>
                     {/* <Landingpage/> */}
 
-                    <Footer/>
+                    <Navhome/>
+                        <Switch>
+                            <Route path="/Learnable" exact component={()=> <Learnable/>}/>
+                            <Route path="/Softwaredeveloper" exact component={()=> <Softwaredeveloper/>}/>
+                            <Route path="/Productdesigner" exact component={()=> <Productdesigner/>}/>
+                            <Route path="/Apply" exact component={()=> <Apply/>}/>
+                            <Route path="/Journal" exact component={()=> <Journal/>}/>
+                            <Route path="/Faq" exact component={()=> <FAQ/>}/>
+                        </Switch>
+
+                    <Footer/> 
                 </Router>
+
+               
                 
             </div>
         );

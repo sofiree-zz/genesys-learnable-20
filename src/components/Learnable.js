@@ -1,14 +1,18 @@
 import React from 'react';
 
+import NavMain from './NavMain';
 import Navhome from './Navhome';
 import Video from "./images/learnablevideo.png";
-import Cutout from "./images/Cutout1.png";
+import Play from "./images/Playbutton.svg";
+import Cutout from "./images/Cutout 1.svg";
 import Learn from "./images/unusual.png";
+import Eligible from "./images/eligible.png";
 import Culture from "./images/culture.png";
-import Video1 from "./images/phototile.png";
+import Collage1 from "./images/phototile.png";
 import Experts from "./images/expertphoto.png";
-import Collage from "./images/phototile2.png";
+import Collage2 from "./images/phototile2.png";
 import Knowledge from "./images/knowledge.png";
+import Drop from "./images/dropdown.svg";
 import Journal from "./images/journal.png";
 import FastCompany from "./images/fastlogo.svg";
 import Uxcompany from "./images/uxlogo.svg";
@@ -21,10 +25,11 @@ import Footer from './Footer';
 const learnableHomepage=()=>{
     return(
         <div>
+            <Navhome/>
             <section>
 {/* introduction to learnable */}
                 <div>
-                    {/* <button></button> insert x button here */}
+                   
                     <h1>Coming Soon:<br/>Learnable '20</h1>
                     <p>
                         We've started taking in applications
@@ -47,6 +52,7 @@ const learnableHomepage=()=>{
                             to you by Genesys.
                         </p>
                     </div>
+                    
                     <div class="sphereofspheres">
 
                         <div class="circle1">
@@ -68,6 +74,7 @@ const learnableHomepage=()=>{
 {/* learnable video */}
             <section>
                 <img src={Video}/>
+                <img class="play" src={Play}/>
             </section>
 {/* stats */}
             <section>
@@ -157,12 +164,12 @@ const learnableHomepage=()=>{
                 </div>
                 
                 <div class="topics">
-                    <div id="js"><a>Program with Javascript</a></div>
-                    <div id="git"><a>Version Control with Git</a></div>
-                    <div id="react_"><a>Web Devellopment with React</a></div>
-                    <div id="node"><a>Building APIs with NodeJS</a></div>
-                    <div id="mongo"><a>Managing Data with MongoDB</a></div>
-                    <div id="heroku"><a>Deploying with Heroku</a></div>
+                    <div id="js"><p>Program with Javascript</p></div>
+                    <div id="git"><p>Version Control with Git</p></div>
+                    <div id="react_"><p>Web Devellopment with React</p></div>
+                    <div id="node"><p>Building APIs with NodeJS</p></div>
+                    <div id="mongo"><p>Managing Data with MongoDB</p></div>
+                    <div id="heroku"><p>Deploying with Heroku</p></div>
                 </div>               
             </section>
 {/* for designers */}
@@ -184,18 +191,38 @@ const learnableHomepage=()=>{
                 </div>
                 
                 <div class="topics">
-                    <div id="ui"><a>Design User Interface</a></div>
-                    <div id="ux"><a>Craft User Experiences</a></div>
-                    <div id="thinking"><a>Apply Design Thinking</a></div>
-                    <div id="architecture"><a>Build Information Architecture</a></div>
-                    <div id="copy_write"><a>Copy write for Projects</a></div>
-                    <div id="brand"><a>Brand Products</a></div>
+                    <div id="ui"><p>Design User Interface</p></div>
+                    <div id="ux"><p>Craft User Experiences</p></div>
+                    <div id="thinking"><p>Apply Design Thinking</p></div>
+                    <div id="architecture"><p>Build Information Architecture</p></div>
+                    <div id="copy_write"><p>Copy write for Projects</p></div>
+                    <div id="brand"><p>Brand Products</p></div>
                 </div>     
             </section>
+{/* eligible? */}
+            <section>
+                <div>
+                    <h2>Who Is Eligible?</h2>
+                    <p>
+                    To be a participant of lernable, you need to be a young and passionate person interested in launching a super tech career. 
+                    You will need to have foundational knowledge in whatever 
+                    learning path you are applying for and be available for the six month duration of the program.<br/>
+                    <br/>
+                    To become a part of the Genesys family, 
+                    you must express some of the qualities we consider important. 
+                    You are someone that takes responsibilities and initiatives. 
+                    You will also express the ability to produce quality stuff in good time with high consistency.   
+                    </p>
+                </div>
+
+                <img src={Eligible}/>
+            </section>
+
+
 {/* our culture */}
             <section>
                 <div>
-                    <img src={Culture}/>
+                    <img src={Culture}/> <img class="play" src={Play}/>
                 </div>
                 <div>
                     <h2>Our Culture</h2>
@@ -210,7 +237,7 @@ const learnableHomepage=()=>{
 {/* learning can be fun */}
             <section>
                 <div>
-                    <img src={Video1}/>
+                    <img src={Collage1}/>
                 </div>
                 <div>
                     <h2>Learning can Be Fun...</h2>
@@ -303,54 +330,14 @@ const learnableHomepage=()=>{
                                 </div>
                                 <h6>Nnamdi</h6>
                                 <p>Managing Director</p>
-                            </div>
-
-                            <div id="num7">
-                                <div>
-                                    <div>
-                                        <div><img src={Experts}/></div>
-                                    </div>
-                                </div>
-                                <h6>Nnamdi</h6>
-                                <p>Managing Director</p>
-                            </div>
-
-                            <div id="num8">
-                                <div>
-                                    <div>
-                                        <div><img src={Experts}/></div>
-                                    </div>
-                                </div>
-                                <h6>Nnamdi</h6>
-                                <p>Managing Director</p>
-                            </div>
-
-                            <div id="num9">
-                                <div>
-                                    <div>
-                                        <div><img src={Experts}/></div>
-                                    </div>
-                                </div>
-                                <h6>Nnamdi</h6>
-                                <p>Managing Director</p>
-                            </div>
-
-                            <div id="num10">
-                                <div>
-                                    <div>
-                                        <div><img src={Experts}/></div>
-                                    </div>
-                                </div>
-                                <h6>Nnamdi</h6>
-                                <p>Managing Director</p>
-                            </div>
+                            </div>                           
                         </div>
                 </div>
             </section>
 {/*Anti classroom learning */}
             <section>
             <div>
-                    <img src={Collage}/>
+                    <img src={Collage2}/>
                 </div>
                 <div>
                     <h2>Learning Doesn't Always Have To Be In The Classroom</h2>
@@ -391,7 +378,7 @@ const learnableHomepage=()=>{
 {/* faq 1 */}
                     <dt>
                         <button aria-expanded="false" aria-controls="faq1_ans">
-                            How many people can attend a course? <img/> 
+                            How many people can attend a course? <img src={Drop}/> 
                         </button>
                     </dt>
                     <dd >
@@ -400,7 +387,7 @@ const learnableHomepage=()=>{
 {/* faq 2 */}
                     <dt>
                         <button aria-expanded="false" aria-controls="faq2_ans">
-                            What's the learning experience like? <img/> 
+                            What's the learning experience like? <img src={Drop}/> 
                         </button>
                     </dt>
                     <dd >
@@ -409,7 +396,7 @@ const learnableHomepage=()=>{
 {/* faq 3 */}
                     <dt>
                         <button aria-expanded="false" aria-controls="faq3_ans">
-                            Who are the coaches? <img/> 
+                            Who are the coaches? <img src={Drop}/> 
                         </button>
                     </dt>
                     <dd >
@@ -418,7 +405,7 @@ const learnableHomepage=()=>{
 {/* faq 4 */}
                     <dt>
                         <button aria-expanded="false" aria-controls="faq4_ans">
-                            How far in advance should we book? <img/> 
+                            How far in advance should we book? <img src={Drop}/> 
                         </button>
                     </dt>
                     <dd >
@@ -427,45 +414,45 @@ const learnableHomepage=()=>{
 {/* faq 5 */}
                     <dt>
                         <button aria-expanded="false" aria-controls="faq5_ans">
-                            Can you customize your courses? <img/> 
+                            Can you customize your courses? <img src={Drop}/> 
                         </button>
                     </dt>
                     <dd >
                         <p id="faq5_ans" class="ans">Sophia</p>
                     </dd>
-                </dl>               
+                </dl>  
+                <a href="#">SEE ALL</a>             
             </section>
 {/* Journal */}
             <section>
                 <h2>Journal</h2>
-                <div>
-                    <img src={Journal}/>
-                    <h6>INSPIRATION</h6>
-                    <a href="#">Learn Design Thinking like a Pro and Build Projects that people will care about</a>
-                    <p>David Mong, Apr 9, 2020</p>
+                <a href="#">VIEW ALL</a>
+                <div class="journal">
+                    <div>
+                        <img src={Journal}/>
+                        <h6>INSPIRATION</h6>
+                        <h2>Learn Design Thinking like a Pro and Build Projects that people will care about</h2>
+                        <p>David Mong, Apr 9, 2020</p>
+                    </div>
+                    <div>
+                        <img src={Journal}/>
+                        <h6>INSPIRATION</h6>
+                        <h2>Learn Design Thinking like a Pro and Build Projects that people will care about</h2>
+                        <p>David Mong, Apr 9, 2020</p>
+                    </div>
+                    <div>
+                        <img src={Journal}/>
+                        <h6>INSPIRATION</h6>
+                        <h2>Learn Design Thinking like a Pro and Build Projects that people will care about</h2>
+                        <p>David Mong, Apr 9, 2020</p>
+                    </div>
+                    <div>
+                        <img src={Journal}/>
+                        <h6>INSPIRATION</h6>
+                        <h2>Learn Design Thinking like a Pro and Build Projects that people will care about</h2>
+                        <p>David Mong, Apr 9, 2020</p>
+                    </div>
                 </div>
-
-                <div>
-                    <img src={Journal}/>
-                    <h6>INSPIRATION</h6>
-                    <a href="#">Learn Design Thinking like a Pro and Build Projects that people will care about</a>
-                    <p>David Mong, Apr 9, 2020</p>
-                </div>
-
-                <div>
-                    <img src={Journal}/>
-                    <h6>INSPIRATION</h6>
-                    <a href="#">Learn Design Thinking like a Pro and Build Projects that people will care about</a>
-                    <p>David Mong, Apr 9, 2020</p>
-                </div>
-
-                <div>
-                    <img src={Journal}/>
-                    <h6>INSPIRATION</h6>
-                    <a href="#">Learn Design Thinking like a Pro and Build Projects that people will care about</a>
-                    <p>David Mong, Apr 9, 2020</p>
-                </div>
-                <a href="#">VIEW ALL</a>               
             </section>
 {/* mentions */}
             <section>

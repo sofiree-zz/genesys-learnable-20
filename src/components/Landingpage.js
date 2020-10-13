@@ -8,6 +8,7 @@ import Ville from "./images/codeville.png";
 import Pink from "./images/pinkcode.png";
 import Team from "./images/besteam.png";
 
+
 import Subscribe from './Subscribe';
 
 
@@ -23,16 +24,18 @@ const homePage = () =>{
                     Nigerian Techies and Opportunities
                     To Grow And Innovate.
                 </p>
-                <img id="first_image" src={Rectangle} />
+                
                 <p>We understand that opportunities are 
                     scarece in these parts. We are either creating or exposing our 
                     people to these opportunities.
                 </p>
+
+                <aside><img id="first_image" src={Rectangle}/></aside>
             </section>
 
             {/* learnable details*/}
             <section className="learnable">
-                <img src={Photo}/>
+                <aside><img src={Photo}/></aside>
                 <h3>Learnable</h3>
                 <p>
                     Every year, young Nigerians are launching
@@ -44,7 +47,7 @@ const homePage = () =>{
 
             {/* the agora details*/}
             <section className="agora">
-                <img id="the_agora" src={Agora} />
+                
                 <h3>Agora</h3>
                 <p>
                     We are reimagining the workplace and how
@@ -52,11 +55,12 @@ const homePage = () =>{
                     spaces can help you enjoy the work that you do.
                 </p>
                 <a href="#">LEARN MORE</a>
+                <aside><img id="the_agora" src={Agora} /></aside> 
             </section>
 
             {/* startzone details*/}
             <section className="startzone">
-                <img id="start_zone" src={StartZone} />
+                <aside><img id="start_zone" src={StartZone} /></aside>
                 <h3>StartZone</h3>
                 <p>
                     The business environment is harsh for
@@ -68,8 +72,8 @@ const homePage = () =>{
 
             {/* ignite, codeville and pinkcode details */}
             <section className="others">
-                <h1>Other Things We Do</h1>
-                {/* genesysignite imagery */}
+                <aside>
+                    {/* genesysignite imagery */}
                 <img id="ignite" src={Ignite} />
                 <a href="#">Genesys Ignite</a>
 
@@ -80,11 +84,14 @@ const homePage = () =>{
                 {/* summer code imagery */}
                 <img id="pink_" src={Pink}/>
                 <a href="#">Pink Summer of Code</a>
+                </aside>
+                
+                <h1>Other Things We Do</h1>
             </section>
 
             {/* showing the team */}
             <section className="team">
-                <img id="team_" src={Team}/>
+                <aside><img id="team_" src={Team}/></aside>
                 <h1>The Best Team In The World</h1>
                 <p>
                     The business environment is harsh
@@ -93,6 +100,7 @@ const homePage = () =>{
                 </p>
                 <a href="#">SEE TEAM</a>
             </section>
+           
 
           <Subscribe/>
 
