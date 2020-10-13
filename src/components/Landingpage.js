@@ -1,16 +1,11 @@
 import React from 'react';
+import NavMain from './NavMain';
 
 
 
 const homePage = () =>{
     return(
         <div>
-            {/* header for mobile */}
-            <header>
-                <img id="logo_" src="src/logo.svg" />
-                <img id="menu_" src="src/images/menu_24px.svg"/>
-            </header>
-
             {/* section called introduction */}
             <section className="intro">
                 <p>
