@@ -1,6 +1,20 @@
 import React from 'react';
 
 import Navhome from './Navhome';
+import Video from "./images/learnablevideo.png";
+import Cutout from "./images/Cutout1.png";
+import Learn from "./images/unusual.png";
+import Culture from "./images/culture.png";
+import Video1 from "./images/phototile.png";
+import Experts from "./images/expertphoto.png";
+import Collage from "./images/phototile2.png";
+import Knowledge from "./images/knowledge.png";
+import Journal from "./images/journal.png";
+import FastCompany from "./images/fastlogo.svg";
+import Uxcompany from "./images/uxlogo.svg";
+import Wired from "./images/wiredlogo.svg";
+import Webvision from "./images/visionlogo.svg";
+import Interaction from "./images/interactionSAlogo.svg";
 import Subscribe from './Subscribe';
 import Footer from './Footer';
 
@@ -53,7 +67,7 @@ const learnableHomepage=()=>{
             </section>
 {/* learnable video */}
             <section>
-                <img/>
+                <img src={Video}/>
             </section>
 {/* stats */}
             <section>
@@ -83,7 +97,7 @@ const learnableHomepage=()=>{
                         <div>
                             <div>
                                 <div>
-                                    <img/>
+                                    <img src={Cutout}/>
                                 </div>
                             </div>
                         </div>
@@ -107,7 +121,7 @@ const learnableHomepage=()=>{
 {/* unusal learning experience */}
             <section>
                 <div>
-                    <img/>
+                    <img src={Learn}/>
                 </div>
                 <div>
                     <h2>An Unusual Learning Experience</h2>
@@ -181,7 +195,7 @@ const learnableHomepage=()=>{
 {/* our culture */}
             <section>
                 <div>
-                    <img/>
+                    <img src={Culture}/>
                 </div>
                 <div>
                     <h2>Our Culture</h2>
@@ -196,9 +210,7 @@ const learnableHomepage=()=>{
 {/* learning can be fun */}
             <section>
                 <div>
-                    <img/>
-                    <img/>
-                    <img/><img/><img/><img/><img/><img/><img/><img/><img/><img/><img/><img/><img/><img/>
+                    <img src={Video1}/>
                 </div>
                 <div>
                     <h2>Learning can Be Fun...</h2>
@@ -236,7 +248,7 @@ const learnableHomepage=()=>{
                             <div id="num1">
                                 <div>
                                     <div>
-                                        <div><img/></div>
+                                        <div><img src={Experts}/></div>
                                     </div>
                                 </div>
                                 <h6>Nnamdi</h6>
@@ -246,7 +258,7 @@ const learnableHomepage=()=>{
                             <div id="num2">
                                 <div>
                                     <div>
-                                        <div><img/></div>
+                                        <div><img src={Experts}/></div>
                                     </div>
                                 </div>
                                 <h6>Nnamdi</h6>
@@ -256,7 +268,7 @@ const learnableHomepage=()=>{
                             <div id="num3">
                                 <div>
                                     <div>
-                                        <div><img/></div>
+                                        <div><img src={Experts}/></div>
                                     </div>
                                 </div>
                                 <h6>Nnamdi</h6>
@@ -266,7 +278,7 @@ const learnableHomepage=()=>{
                             <div id="num4">
                                 <div>
                                     <div>
-                                        <div><img/></div>
+                                        <div><img src={Experts}/></div>
                                     </div>
                                 </div>
                                 <h6>Nnamdi</h6>
@@ -276,7 +288,7 @@ const learnableHomepage=()=>{
                             <div id="num5">
                                 <div>
                                     <div>
-                                        <div><img/></div>
+                                        <div><img src={Experts}/></div>
                                     </div>
                                 </div>
                                 <h6>Nnamdi</h6>
@@ -286,7 +298,7 @@ const learnableHomepage=()=>{
                             <div id="num6">
                                 <div>
                                     <div>
-                                        <div><img/></div>
+                                        <div><img src={Experts}/></div>
                                     </div>
                                 </div>
                                 <h6>Nnamdi</h6>
@@ -296,7 +308,7 @@ const learnableHomepage=()=>{
                             <div id="num7">
                                 <div>
                                     <div>
-                                        <div><img/></div>
+                                        <div><img src={Experts}/></div>
                                     </div>
                                 </div>
                                 <h6>Nnamdi</h6>
@@ -306,7 +318,7 @@ const learnableHomepage=()=>{
                             <div id="num8">
                                 <div>
                                     <div>
-                                        <div><img/></div>
+                                        <div><img src={Experts}/></div>
                                     </div>
                                 </div>
                                 <h6>Nnamdi</h6>
@@ -316,7 +328,7 @@ const learnableHomepage=()=>{
                             <div id="num9">
                                 <div>
                                     <div>
-                                        <div><img/></div>
+                                        <div><img src={Experts}/></div>
                                     </div>
                                 </div>
                                 <h6>Nnamdi</h6>
@@ -326,7 +338,7 @@ const learnableHomepage=()=>{
                             <div id="num10">
                                 <div>
                                     <div>
-                                        <div><img/></div>
+                                        <div><img src={Experts}/></div>
                                     </div>
                                 </div>
                                 <h6>Nnamdi</h6>
@@ -338,9 +350,7 @@ const learnableHomepage=()=>{
 {/*Anti classroom learning */}
             <section>
             <div>
-                    <img/>
-                    <img/>
-                    <img/><img/><img/><img/><img/><img/><img/><img/><img/><img/><img/><img/><img/><img/>
+                    <img src={Collage}/>
                 </div>
                 <div>
                     <h2>Learning Doesn't Always Have To Be In The Classroom</h2>
@@ -356,7 +366,7 @@ const learnableHomepage=()=>{
 {/*Apply Knowledge */}
 <section>
                 <div>
-                    <img/>
+                    <img src={Knowledge}/>
                 </div>
                 <div>
                     <h2>Apply Your Knowledge</h2>
@@ -429,33 +439,45 @@ const learnableHomepage=()=>{
             <section>
                 <h2>Journal</h2>
                 <div>
-                    <img/>
+                    <img src={Journal}/>
                     <h6>INSPIRATION</h6>
                     <a href="#">Learn Design Thinking like a Pro and Build Projects that people will care about</a>
                     <p>David Mong, Apr 9, 2020</p>
                 </div>
 
                 <div>
-                    <img/>
+                    <img src={Journal}/>
                     <h6>INSPIRATION</h6>
                     <a href="#">Learn Design Thinking like a Pro and Build Projects that people will care about</a>
                     <p>David Mong, Apr 9, 2020</p>
                 </div>
 
                 <div>
-                    <img/>
+                    <img src={Journal}/>
                     <h6>INSPIRATION</h6>
                     <a href="#">Learn Design Thinking like a Pro and Build Projects that people will care about</a>
                     <p>David Mong, Apr 9, 2020</p>
                 </div>
 
                 <div>
-                    <img/>
+                    <img src={Journal}/>
                     <h6>INSPIRATION</h6>
                     <a href="#">Learn Design Thinking like a Pro and Build Projects that people will care about</a>
                     <p>David Mong, Apr 9, 2020</p>
                 </div>
                 <a href="#">VIEW ALL</a>               
+            </section>
+{/* mentions */}
+            <section>
+                <div>
+                    <h2>Mentioned In</h2>
+                    <div>
+                        <div><img src={FastCompany}/> <img src={Uxcompany}/></div>
+                        <div><img src={Wired}/> <img src={Webvision}/></div>
+                        <div><img src={Interaction}/></div>
+                    </div>
+                </div>
+
             </section>
             <Subscribe/>
         </div>
