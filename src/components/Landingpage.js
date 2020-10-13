@@ -8,6 +8,8 @@ import Ville from "./images/codeville.png";
 import Pink from "./images/pinkcode.png";
 import Team from "./images/besteam.png";
 
+import Subscribe from './Subscribe';
+
 
 
 
@@ -92,16 +94,7 @@ const homePage = () =>{
                 <a href="#">SEE TEAM</a>
             </section>
 
-            {/* option for subscriptions */}
-            <section className="subscribe">
-               <p id="sub_link"><a href="#" >Stay up to date on what
-                    we are doing and new learning opportunities</a></p>
-               <form>
-                   <input type="email" id="email" name="email" placeholder="Your Email"/>
-                   <input type="submit" id="subscribe" name="subscribe" value="SUBSCRIBE"/>
-               </form>
-               <a href="#">View Privacy Policy</a>
-            </section>
+          <Subscribe/>
 
             {/* hold socials, more links etc.... */}
             
