@@ -16,7 +16,7 @@ const questions=()=>{
                 </section>
 
                 <section className="dropdown">
-                <dl class="faq">
+                <dl className="asked_questions">
 {/* faq 1 */}
                     <dt>
                         <button aria-expanded="false" aria-controls="faq1_ans">

@@ -1,5 +1,4 @@
-import React from 'react';
-// import {Link, withRouter} from 'react-router-dom';
+import React, {Component} from 'react';
 import Dev from "./images/todevstud.png";
 import Twitter from "./images/twitterVector.svg";
 import Facebook from "./images/facebookVector.svg";
@@ -9,14 +8,14 @@ import YouTube from "./images/youtube-logotype 1.svg";
 import Vimeo from "./images/vimeo 1vec.svg";
 
 
-const footer = () => {
-    return(
-        <footer className="footer_">
-                {/* <Link class="software" to="/Softwaredeveloper">BUILD SOFTWARE</Link> */}
-                <a href="#">BUILD SOFTWARE</a>
-                <a href="#">DESIGN DIFFERENT</a>
-                <a href="#">APPLY YOUR KNOWLEDGE</a>
-                <a href="#">FAQ</a>
+class FooterNote extends React.Component{
+    render(){
+        return(
+            <footer className="footer_">
+                <a href="/Softwaredeveloper">BUILD SOFTWARE</a>
+                <a href="/Productdesigner">DESIGN DIFFERENT</a>
+                <a href="/Apply">APPLY YOUR KNOWLEDGE</a>
+                <a href="/FAQ">FAQ</a>
 
                 <img id="footer_img" src={Dev}/>
 
@@ -35,16 +34,17 @@ const footer = () => {
 
                 <a href="#" >GET IN TOUCH</a>
 
-                <div>
-                    <img src={Twitter}/>
-                    <img src={Facebook}/>
-                    <img src={LinkedIn}/>
-                    <img src={Instagram}/>
-                    <img src={YouTube}/>
-                    <img src={Vimeo}/>                   
+                <div className="social_links">
+                    <a id="twitter" href="#"><img src={Twitter}/></a>                   
+                    <a id="facebook" href="#"><img src={Facebook}/></a>
+                    <a id="linkedin" href="#"><img src={LinkedIn}/></a>
+                    <a id="instagram" href="#"><img src={Instagram}/></a>
+                    <a id="youtube" href="#"><img src={YouTube}/></a>
+                    <a id="vimeo" href="#"><img src={Vimeo}/> </a>                  
                 </div>
+                <div><p>Genesys 2020</p></div>
             </footer>
-    );
+        );
+    }
 }
-
-export default footer;
+export default FooterNote;

@@ -4,10 +4,10 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 // import './App.css';
 import NavMain from './components/NavMain';
-import Landingpage from './components/Landingpage';
 import Navhome from './components/Navhome';
-import Footer from './components/Footer';
+import Landingpage from './components/Landingpage';
 import Learnable  from './components/Learnable';
+import Footer from './components/Footer';
 import Softwaredeveloper from './components/Softwaredeveloper';
 import Productdesigner from './components/Productdesigner';
 import Apply from './components/Apply';
@@ -15,7 +15,7 @@ import Journal from './components/Journal';
 import FAQ from './components/FAQ';
 
 
-class App extends Component{
+class App extends React.Component{
     render(){
         return(
             <div className="App" >
@@ -25,7 +25,7 @@ class App extends Component{
                             <Route path="/Learnable" exact component={()=> <Learnable/>}/>
                             <Route path="/" exact component={()=> <Landingpage/>}/>
                         </Switch>
-                    {/* <Landingpage/> */}
+                    
 
                     <Navhome/>
                         <Switch>
@@ -37,16 +37,16 @@ class App extends Component{
                             <Route path="/Faq" exact component={()=> <FAQ/>}/>
                         </Switch>
 
-                    <Footer/> 
+                   
                 </Router>
-
+                <div>
+                    
+                </div>
+                <Footer/> 
                
                 
             </div>
         );
     }
 }
-
-
-
 export default App;
