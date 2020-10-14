@@ -1,6 +1,7 @@
 body{
   width: 100%;
   background-color: #ffffff;
+  padding: 170px 0px 0px 0px;
 }
 
 
@@ -26,12 +27,31 @@ body{
 }
 
 
-li{
+.nav ul li{
   
   text-transform: uppercase;  
   list-style: none;
   padding: 0px 15px 0px 0px;
+  
 }
+
+.fir_link{
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  color: #273043;
+  text-decoration: none;
+}
+
+.fir_link:active{
+  background-color: yellow;
+  color: #f5772f;
+}
+
+ .fir_link:hover{
+  color: #ff0000;
+}
+
 
 
 .sideheader{
@@ -49,4 +69,45 @@ li{
   margin: auto;
   background: none;
 } 
+
+/* styling for 2nd nav header */
+
+.header2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 48px;
+
+
+  background: #17255a;
+ 
+}
+
+.nav2 ul{
+  display: flex;
+}
+
+.nav2 ul li{
+  
+  text-transform: uppercase;  
+  list-style: none;
+  padding: 0px 15px 0px 0px;
+}
+
+.sec_link{
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  color: #ffffff;  
+}
+
+.sec_link:hover{
+  color: #000000;
+}
+
+.sec_link.active{
+  color: #eac435;
+}
 

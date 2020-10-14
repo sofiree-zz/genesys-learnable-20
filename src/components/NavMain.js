@@ -9,12 +9,12 @@ class Navigation extends React.Component{
                         <div className="logo_"><img src={Logo}/></div>
                         <div className="nav">
                             <ul>
-                                <li><Link className="learnhome" to = "/Learnable">Learnable</Link></li>
-                                <li><Link className="agora" to="/">Agora</Link></li>
-                                <li><Link className="startzone" to="/">StartZone</Link></li>
-                                <li><Link className="about" to="/">About</Link></li>
-                                <li><Link className="contact" to="/">Contact</Link></li>
-                                <li><Link className="devstudio" to="/">Dev Studio</Link></li>
+                                <li><Link className="fir_link" to = "/Learnable">Learnable</Link></li>
+                                <li><Link className="fir_link" to="/">Agora</Link></li>
+                                <li><Link className="fir_link" to="/">StartZone</Link></li>
+                                <li><Link className="fir_link" to="/">About</Link></li>
+                                <li><Link className="fir_link" to="/">Contact</Link></li>
+                                <li><Link className="fir_link" to="/">Dev Studio</Link></li>
                             </ul>
                         </div>                  
                         <div className="sideheader">
