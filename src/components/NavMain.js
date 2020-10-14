@@ -4,13 +4,12 @@ import Logo from "./images/logo.svg";
 
 class Navigation extends React.Component{
     render(){
-        return(
-                <div >
-                    <div className="header1">
-                        <img id="logo_" src={Logo}/>
-                        <div className="Nav">
+        return(             
+                    <header className="header1">
+                        <div className="logo_"><img src={Logo}/></div>
+                        <div className="nav">
                             <ul>
-                                <li> <Link className="learnhome" to = "/Learnable">Learnable</Link></li>
+                                <li><Link className="learnhome" to = "/Learnable">Learnable</Link></li>
                                 <li><Link className="agora" to="/">Agora</Link></li>
                                 <li><Link className="startzone" to="/">StartZone</Link></li>
                                 <li><Link className="about" to="/">About</Link></li>
@@ -22,8 +21,7 @@ class Navigation extends React.Component{
                             <p>build a product with</p>
                             <button className="buttons">DEVSTUDIO</button>
                         </div> 
-                   </div>     
-                </div>
+                   </header>                
             );
     }
 }

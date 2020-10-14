@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import './App.css';
 
-
-// import './App.css';
 import NavMain from './components/NavMain';
 import Navhome from './components/Navhome';
 import Landingpage from './components/Landingpage';
@@ -40,7 +39,7 @@ class App extends React.Component{
                    
                 </Router>
                 <div>
-                    
+
                 </div>
                 <Footer/> 
                

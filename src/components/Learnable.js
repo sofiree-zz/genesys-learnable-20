@@ -382,7 +382,7 @@ class LearnableHomepage extends React.Component{
                         </button>
                     </dt>
                     <dd >
-                        <p id="faq1_ans" class="ans">Only 30</p>
+                        <p id="faq1_ans" class="ans"></p>
                     </dd>
 {/* faq 2 */}
                     <dt>
@@ -391,7 +391,7 @@ class LearnableHomepage extends React.Component{
                         </button>
                     </dt>
                     <dd >
-                        <p id="faq2_ans" class="ans">Sophia</p>
+                        <p id="faq2_ans" class="ans"></p>
                     </dd>
 {/* faq 3 */}
                     <dt>
@@ -400,7 +400,7 @@ class LearnableHomepage extends React.Component{
                         </button>
                     </dt>
                     <dd >
-                        <p id="faq3_ans" class="ans">Sophia</p>
+                        <p id="faq3_ans" class="ans"></p>
                     </dd>
 {/* faq 4 */}
                     <dt>
@@ -409,7 +409,7 @@ class LearnableHomepage extends React.Component{
                         </button>
                     </dt>
                     <dd >
-                        <p id="faq4_ans" class="ans">Sophia</p>
+                        <p id="faq4_ans" class="ans"></p>
                     </dd>
 {/* faq 5 */}
                     <dt>

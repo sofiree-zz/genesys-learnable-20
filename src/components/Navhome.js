@@ -5,7 +5,7 @@ import {Link, withRouter} from 'react-router-dom';
 class NavLearnable extends React.Component{
     render(){
         return(
-            <div >
+            <header >
             
                 <ul className="header2">
                     <li> <Link className="home" to = "/Learnable">Home</Link></li>
@@ -15,7 +15,7 @@ class NavLearnable extends React.Component{
                     <li><Link className="journal" to="/Journal">Journal</Link></li>
                     <li><Link className="faq" to="/Faq">FAQ</Link></li>
                 </ul>
-            </div>
+            </header>
         );
     }
 }
