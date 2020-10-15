@@ -4,6 +4,8 @@ import './App.css';
 
 import NavMain from './components/NavMain';
 import Navhome from './components/Navhome';
+import Arrowdown from './components/Arrowdown';
+import Arrownup from './components/Arrowup';
 import Landingpage from './components/Landingpage';
 import Learnable  from './components/Learnable';
 import Footer from './components/Footer';

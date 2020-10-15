@@ -111,3 +111,381 @@ body{
   color: #eac435;
 }
 
+/* landing page styling section one*/
+.contain_1{
+  
+  background: yellow;
+  padding: 1px 0px 0px 0px;
+} 
+
+.intro{
+  margin: 126px 0px 0px 61px;
+  background-color: purple;
+}
+
+.intro_notes{
+  height: 281px;
+width: 654px;
+left: 100px;
+top: 270px;
+
+background-color: blue;
+
+}
+
+.nOne{ 
+  font-style:normal;
+  font-weight: 900;
+  font-size: 38px;
+  color: #17255A;
+  
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.nTwo{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.15px;
+  color: #273043;
+ 
+}
+
+
+ .arr_con{
+   
+  margin: 207.56px 67px 0px 0px; 
+ 
+}
+
+.down_arrow{
+  background: none;
+  border: none;
+} 
+
+.img_con{
+  height: 460px;
+width: 1290px;
+margin-top: -100px;
+margin-left: 150px;
+}
+
+.img_con img{
+  max-width: 100%;
+  height: auto;
+}
+.img2{
+  
+height: 102.13030242919922px;
+width: 195px;
+margin-left: 623px;
+margin-top: -300px;
+}
+
+.img2 p{
+  top: 914.52px;
+  left: 623px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 110.19%; 
+
+  letter-spacing: 0.1px;
+  color: #eeeeee;
+}
+
+/* section two styling */
+.learnable{
+height: 780px;
+ 
+left: 0px;
+padding-top:1px;
+background: pink;
+}
+
+.intro_notes2{
+display: flex;
+height: 580px;
+width: 1290px;
+margin: 100px 100px 100px 50px;
+
+background: red;
+}
+
+.learn_img{
+  max-width: 100%;
+  height: auto;
+
+}
+
+.text_{
+margin: 199px 0px 199px 100px;
+}
+
+.text_ h3{
+  font-style:normal;
+  font-weight: 900;
+  font-size: 38px;
+  color: #17255A;
+  
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.text_ a{
+  font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 1.25px;
+text-align: left;
+color: #03cea4;
+}
+
+/* section three the agora */
+
+.agora{
+  height: 780px;
+ 
+left: 0px;
+padding-top:1px;
+background: orange;
+}
+
+.intro_notes3{
+  display: flex;
+  height: 580px;
+  width: 1290px;
+  margin: 100px 100px 100px 50px;
+  
+  background: black;
+  }
+
+  .text__{
+    margin: 199px 100px 199px 50px;
+  }
+
+  .text__ h3{
+    font-style:normal;
+  font-weight: 900;
+  font-size: 38px;
+  color: #17255A;
+  
+  line-height: 40px;
+  text-transform: capitalize;
+  }
+
+  .text__ a{
+    
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 1.25px;
+  text-align: left;
+  color: #03cea4;
+
+  }
+  .the_agora{
+    max-width: 100%;
+    height: auto;
+  }
+
+/* section 4 startzone */
+
+.startZone{
+  height: 780px;
+   
+  left: 0px;
+  padding-top:1px;
+  background: pink;
+  }
+  
+  .intro_notes4{
+  display: flex;
+  height: 580px;
+  width: 1290px;
+  margin: 100px 100px 100px 50px;
+  
+  background: red;
+  }
+  
+  .start_zone{
+    max-width: 100%;
+    height: auto;
+  
+  }
+  
+  .text___{
+  margin: 199px 0px 199px 100px;
+  }
+  
+  .text___ h3{
+    font-style:normal;
+    font-weight: 900;
+    font-size: 38px;
+    color: #17255A;
+    
+    line-height: 40px;
+    text-transform: capitalize;
+  }
+  
+  .text___ a{
+    font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 1.25px;
+  text-align: left;
+  color: #03cea4;
+  }
+  /* section 4 other things */
+
+  .others{
+    height: 780px;
+   
+  left: 0px;
+  padding-top:1px;
+  background: purple;
+  }
+
+  .other_con{
+    display: flex;
+    height: 576px;
+  width: 1190px;
+  margin: 100px 150px 103px 50px;
+  
+  background: red;
+  }
+  .other_photos{
+    height: 576px;
+   width: 505px; 
+  background: blue;
+  }
+
+  .ignite a p{  
+margin-left: 264px;
+margin-top: -183px;   
+font-size: 34px;
+font-style: normal;
+font-weight: 900;
+line-height: 37px;
+letter-spacing: 0.25px;
+text-align: left;
+color: #17255A;
+
+  }
+
+  .code_ville{
+    height: 200px;
+width: 240px;
+margin-left: 0px;
+margin-top: 125px;
+  }
+
+  .code_ville a p{
+    margin-top: 3px;
+    margin-left: 25px;
+    font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 37px;
+letter-spacing: 0.25px;
+text-align: left;
+color: #17255A;
+  }
+
+  .pink_{
+    height: 311px;
+width: 240px;
+margin-left: 255px;
+margin-top: -200px;
+  }
+
+  .pink_ a p{
+    margin-top: 1px;
+    margin-left: 25px;
+    font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 37px;
+letter-spacing: 0.25px;
+text-align: left;
+color: #17255A;
+  }
+
+  .others h3{
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+line-height: 66px;
+letter-spacing: -0.5px;
+text-align: left;
+color: #17255a;
+margin: 199px 0px 199px 100px;
+  }
+
+  /* section 5 team */
+  .team{
+    height: 780px;
+     
+    left: 0px;
+    padding-top:1px;
+    background: #17255A;
+    }
+
+  .intro_notes5{
+    display: flex;
+    height: 580px;
+    width: 1290px;
+    margin: 100px 100px 100px 50px;
+    
+    background: #17255A;
+    }
+    
+    .team_{
+      max-width: 100%;
+      height: auto;
+    
+    }
+    
+    .text____{
+    margin: 199px 0px 199px 100px;
+    }
+    
+    .text____ h3{
+      font-style:normal;
+      font-weight: 900;
+      font-size: 38px;
+      color: #ffffff;
+      
+      line-height: 40px;
+      text-transform: capitalize;
+    }
+
+    .text____ p{
+      color: #ffffff;
+    }
+    
+    .text____ a{
+      font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 1.25px;
+    text-align: left;
+    color: #03cea4;
+    }
+
+    .arr_con1{
+   
+      margin: 207.56px 67px 0px 0px; 
+     
+    }
+    
+    .up_arrow{
+      background: none;
+      border: none;
+    } 

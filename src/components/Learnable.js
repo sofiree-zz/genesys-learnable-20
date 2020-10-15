@@ -20,7 +20,10 @@ import Wired from "./images/wiredlogo.svg";
 import Webvision from "./images/visionlogo.svg";
 import Interaction from "./images/interactionSAlogo.svg";
 import Subscribe from './Subscribe';
+import Arrowsdown from './Arrowdown';
+import Arrowsup from './Arrowup';
 import Footer from './Footer';
+
 
 
 class LearnableHomepage extends React.Component{
@@ -46,13 +49,57 @@ class LearnableHomepage extends React.Component{
                 <section className="every_thing">
                     <div>
                         <div className="description">
-                            <h1>Everything Is Learnable</h1>
+                            <h3>Everything Is Learnable</h3>
                             <p>
                                 Learnable is the perfect product
                                 development internship program brought
                                 to you by Genesys.
                             </p>
                         </div>
+
+{/* stats */}
+                    <section className="stats">
+                        <div>
+                            <div>
+                                <h2>305</h2>
+                                <p>Young Software<br/>Developers Trained</p>
+                            </div>
+                            <div>
+                                <h2>2100</h2>
+                                <p>Tech<br/>Enthusiats</p>
+                            </div>
+                            <div>
+                                <h2>8</h2>
+                                <p>StartUps<br/>Incubated</p>
+                            </div>
+                            <div>
+                                <h2>250</h2>
+                                <p>Small Businesses<br/>Supported</p>
+                            </div>
+                        </div>             
+                    </section>  
+{/* learnable video */}
+
+                            <Arrowsdown/>
+                            <div className="image__">
+                               
+                                <div className="img_con">
+                                    <img src={Video}/>
+                                    {/* <button className="img2"><img src={Play}/></button>
+                                    <p>#WeAreGenesys</p> */}
+
+                                    <div className="img2">
+                                    <img   src={Play}/>
+                                    <p>#WeAreGenesys</p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                                {/* <section className="video">
+                                    <img src={Video}/>
+                                    <img id="play" src={Play}/>
+                                </section> */}
+
                         
                         <div className="sphereofspheres">
 
@@ -68,38 +115,11 @@ class LearnableHomepage extends React.Component{
                                     <p>What to expect</p>
                                 </div>               
                             </div>
-
-                        </div>                
+                        </div>             
                     </div>        
                 </section>
 
-{/* learnable video */}
-                <section className="video">
-                    <img src={Video}/>
-                    <img id="play" src={Play}/>
-                </section>
 
-{/* stats */}
-                <section className="stats">
-                    <div>
-                        <div>
-                            <h2>305</h2>
-                            <p>Young Software<br/>Developers Trained</p>
-                        </div>
-                        <div>
-                            <h2>2100</h2>
-                            <p>Tech<br/>Enthusiats</p>
-                        </div>
-                        <div>
-                            <h2>8</h2>
-                            <p>StartUps<br/>Incubated</p>
-                        </div>
-                        <div>
-                            <h2>250</h2>
-                            <p>Small Businesses<br/>Supported</p>
-                        </div>
-                    </div>             
-                </section>
 
 {/* we make people great */}
                 <section className="great_people">
@@ -467,6 +487,7 @@ class LearnableHomepage extends React.Component{
                     </div>
                 </div>
             </section>
+            <Arrowsup/>
             <Subscribe/>
         </div>
         );
