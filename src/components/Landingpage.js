@@ -75,7 +75,7 @@ class HomePage extends React.Component{
                     </section>
 
                     {/* the agora details*/}
-                    <section className="agora">
+                    <section className="learnable2">
                         <div className="intro_notes3">
                             <div className="text__">
                                 <h3>Agora</h3>
@@ -86,18 +86,18 @@ class HomePage extends React.Component{
                                 </p>
                                 <a href="#">LEARN MORE</a>
                             </div>
-                            <img className="the_agora" src={Agora} />
+                            <img className="learn_img2" src={Agora} />
                         </div>
                         
                        
                     </section>
 
                     {/* startzone details*/}
-                    <section className="startZone">
-                        <div className="intro_notes4">
-                            <img className="start_zone" src={StartZone} />
+                    <section className="learnable">
+                        <div className="intro_notes2">
+                            <img className="learn_img" src={StartZone} />
 
-                            <div className="text___">
+                            <div className="text_">
                             <h3>StartZone</h3>
                             <p>
                                 The business environment is harsh for
@@ -142,15 +142,15 @@ class HomePage extends React.Component{
                     </section>
 
                     {/* showing the team */}
-                    <section className="team">
-                        <div className="intro_notes5">
-                            <img className="team_" src={Team}/>
-                            <div className="text____">
+                    <section className="learnable">
+                        <div className="intro_notes2">
+                            <img className="learn_img" src={Team}/>
+                            <div className="text_">
                                 <h3>The Best Team In The World</h3>
                                 <p>
-                                    The business environment is harsh
-                                    for early-stage businesses. We can help
-                                    you rise above it all.
+                                    We work with the most amazing people the industry has to offer.<br/>
+                                    They are really passionate ablout making a difference.
+
                                 </p>
                                 <a href="#">SEE TEAM</a>
                             </div>     

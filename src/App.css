@@ -2,9 +2,10 @@ body{
   width: 100%;
   background-color: #ffffff;
   padding: 170px 0px 0px 0px;
+  font-family: sans-serif;
 }
 
-
+/* nav styling beings */
 .header1{
   display: flex;
   justify-content: space-around;
@@ -110,7 +111,104 @@ body{
 .sec_link.active{
   color: #eac435;
 }
+/* nav styling ends */
 
+/* subscribe component styling begins */
+
+.subscribe{
+  width: 1372px;
+  height: 306px;
+  margin-left: 18px;
+  margin-top: -177px;
+  background: red;
+  padding-top: 1px;
+}
+
+.subs{
+  height: 306;
+  width: 1290px;
+  margin-left:82px ;
+  background: #eac435;
+  padding-top: 1px;
+}
+
+
+.sub_link{
+margin: 97px 104px 37px 49px;
+  
+font-size: 34px;
+font-style: normal;
+font-weight: 900;
+line-height: 37px;
+letter-spacing: 0.25px;
+text-align: left;
+
+}
+
+
+/* 
+input[type=email]{
+  height: auto;
+  width:214;
+  border: none;
+  border-bottom: 2px solid black;
+  background: none;
+} */
+
+/* 
+.sub_link{
+  /* display: flex;
+  justify-content: space-around; 
+  height: 306px;
+}
+
+
+.sub_form{
+  margin: 128px 400px 126px 0px  ;
+}
+
+
+input[type=email]{
+  height: auto;
+  width:214;
+  border: none;
+  border-bottom: 2px solid black;
+  background: none;
+}
+
+input[type=submit]{
+  background: none;
+  margin: -100px -130px 153px 0px;
+ 
+} */
+
+/* arrow down styling  begins*/
+
+.arr_con{
+   
+  margin: 207.56px 67px 0px 0px; 
+ 
+}
+
+.down_arrow{
+  background: none;
+  border: none;
+} 
+
+/* arrown down styling */
+.arr_con1{
+   
+  margin: 129px 67px 0px 39px; 
+ 
+}
+
+.up_arrow{
+  background: none;
+  border: none;
+} 
+/* arrow styling ends */
+
+/*  */
 /* landing page styling section one*/
 .contain_1{
   
@@ -153,18 +251,6 @@ background-color: blue;
  
 }
 
-
- .arr_con{
-   
-  margin: 207.56px 67px 0px 0px; 
- 
-}
-
-.down_arrow{
-  background: none;
-  border: none;
-} 
-
 .img_con{
   height: 460px;
 width: 1290px;
@@ -196,8 +282,10 @@ margin-top: -300px;
   color: #eeeeee;
 }
 
-/* section two styling */
+/* section two styling for learnable, startzone, culture
+apply knowledge, team and unsual */
 .learnable{
+  
 height: 780px;
  
 left: 0px;
@@ -206,7 +294,8 @@ background: pink;
 }
 
 .intro_notes2{
-display: flex;
+  display: flex;
+  justify-content: space-between;
 height: 580px;
 width: 1290px;
 margin: 100px 100px 100px 50px;
@@ -244,9 +333,16 @@ text-align: left;
 color: #03cea4;
 }
 
-/* section three the agora */
+/* play button for culture section */
+.intro_notes2 .play_{
+  margin-top: 200px;
+ 
+}
 
-.agora{
+/* section three the agora,eligible,can be fun, no class learning */
+
+.learnable2{
+  
   height: 780px;
  
 left: 0px;
@@ -256,6 +352,7 @@ background: orange;
 
 .intro_notes3{
   display: flex;
+  justify-content: space-between;
   height: 580px;
   width: 1290px;
   margin: 100px 100px 100px 50px;
@@ -288,59 +385,12 @@ background: orange;
   color: #03cea4;
 
   }
-  .the_agora{
+  .learn_img2{
     max-width: 100%;
     height: auto;
   }
 
-/* section 4 startzone */
 
-.startZone{
-  height: 780px;
-   
-  left: 0px;
-  padding-top:1px;
-  background: pink;
-  }
-  
-  .intro_notes4{
-  display: flex;
-  height: 580px;
-  width: 1290px;
-  margin: 100px 100px 100px 50px;
-  
-  background: red;
-  }
-  
-  .start_zone{
-    max-width: 100%;
-    height: auto;
-  
-  }
-  
-  .text___{
-  margin: 199px 0px 199px 100px;
-  }
-  
-  .text___ h3{
-    font-style:normal;
-    font-weight: 900;
-    font-size: 38px;
-    color: #17255A;
-    
-    line-height: 40px;
-    text-transform: capitalize;
-  }
-  
-  .text___ a{
-    font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 17px;
-  letter-spacing: 1.25px;
-  text-align: left;
-  color: #03cea4;
-  }
   /* section 4 other things */
 
   .others{
@@ -427,65 +477,655 @@ color: #17255a;
 margin: 199px 0px 199px 100px;
   }
 
-  /* section 5 team */
-  .team{
-    height: 780px;
-     
-    left: 0px;
-    padding-top:1px;
-    background: #17255A;
-    }
+  
 
-  .intro_notes5{
-    display: flex;
-    height: 580px;
-    width: 1290px;
-    margin: 100px 100px 100px 50px;
-    
-    background: #17255A;
-    }
-    
-    .team_{
-      max-width: 100%;
-      height: auto;
-    
-    }
-    
-    .text____{
-    margin: 199px 0px 199px 100px;
-    }
-    
-    .text____ h3{
-      font-style:normal;
-      font-weight: 900;
-      font-size: 38px;
-      color: #ffffff;
+
+/*  learnable component styling*/
+
+    .intro_learn{
+      display: flex;
+      justify-content: space-around;
+      height: 242px;
       
-      line-height: 40px;
-      text-transform: capitalize;
+      background: #eac435;
     }
 
-    .text____ p{
-      color: #ffffff;
-    }
-    
-    .text____ a{
-      font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 17px;
-    letter-spacing: 1.25px;
-    text-align: left;
-    color: #03cea4;
-    }
-
-    .arr_con1{
-   
-      margin: 207.56px 67px 0px 0px; 
+    .intro_learn h3{
      
+font-size: 34px;
+font-style: normal;
+font-weight: 900;
+line-height: 37px;
+letter-spacing: 0.25px;
+text-align: left;
+
+      color: #17255A;
+
     }
-    
-    .up_arrow{
-      background: none;
-      border: none;
-    } 
+
+    .intro_learn p{    
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.25px;
+text-align: left;
+    }
+
+    .learn2 a{
+      font-size: 34px;
+font-style: normal;
+font-weight: 900;
+line-height: 37.46px;
+letter-spacing: 0.25px;
+text-align: left;
+text-transform: uppercase;
+
+      color: #17255A;
+    }
+
+    .learn1{
+      margin: auto;
+    }
+
+    .learn2{
+      margin: auto;
+    }
+
+    .desc_con{
+      height: 689px;
+      width: 1440px;
+      left: 0px;
+      background: #ffffff;
+    }
+
+    .description{
+      height: 400px;
+width: 513px;
+margin-left: 100px;
+margin-top: 50px;
+background: purple;
+    }
+
+    .description h3{    
+font-size: 96px;
+font-style: normal;
+font-weight: 900;
+line-height: 90px;
+letter-spacing: -1.5px;
+text-align: left;
+color: #17255A;
+    }
+
+    .description p{     
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.1px;
+text-align: left;
+margin-top: -32px;
+    }
+
+    .stats{
+      /* display: flex;
+      flex-wrap: wrap; */
+      height: 536px;
+      padding-top: 1px;
+      background: #eeeeee;
+    }
+
+    .stat_of_stat{
+      display: flex;
+      /* flex-wrap: wrap; */
+      justify-content: space-around;
+      margin: 325px 277px 96px 277px;
+      width: 886px;
+      height: 115px;
+      background: #f5772f;
+    }
+
+    .video{
+      height: 920px;
+      margin-top: -900px;
+     padding-top: 1px;
+     padding-left: 64px; 
+      background: yellow;
+    }
+
+     .image__{
+      height: 631px;
+      margin-top: -257px;
+      
+      background: pink;
+    }
+
+    .img_con2{
+      height: 460px;
+    width: 1290px;
+    margin-left: 150px;
+    }
+
+    .vid_1{
+      margin-top: 171px;
+    }
+   
+    /* styling for those circle thingys */
+    .sphereofspheres{
+      display: flex;
+      justify-content: space-between;
+      
+      height: 250px;
+width: 516px;
+margin-left: 824px;
+margin-top: -790px; 
+background: purple;
+text-align: center;
+    }
+
+    .sphere1{
+      height: 250px;
+width: 250px;
+left: 0px;
+top: -2px;
+border-radius: 125px;
+background: #03cea4;
+    }
+
+   
+
+  .sphere1 a h6{
+    margin-top: 95px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #273043;
+  }
+
+  .sphere1 p{
+margin-top: -50px;
+
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.25px;
+color: #273043;
+  }
+
+    .sphere2{
+      height: 250px;
+width: 250px;
+left: 0px;
+top: -2px;
+border-radius: 125px;
+background: #17255a;
+    }
+
+    .sphere2 a h6{
+      margin-top: 95px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 26px;
+  letter-spacing: 0px;
+  color: #ffffff;
+      } 
+
+      .sphere2 p{
+        margin-top: -50px;
+
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.25px;
+color: #ffffff;
+      }
+
+      /* styling for great people section */
+      .great_people{
+        height: 652px;
+        padding-top: 1px;
+        background: black;
+      }
+
+      .intro_notes6{
+        display: flex;
+        justify-content: space-between;
+        width: 1190px;
+        height: 452px;
+        margin: 100px 150px 100px 100px;
+        background: plum;
+      }
+
+      .textinfo{
+        height: 313px;
+        width: 538px;
+        color: #273043;
+      }
+
+      .textinfo h3{
+       
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+      }
+
+      .textinfo p{
+       margin-top: 40px;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.5px;
+text-align: left;
+      }
+
+      .cutout{
+        height: 452px;
+width: 452px;
+background: black;
+
+
+      }
+
+      .cut_out{
+        height: 452px;
+width: 452px;
+/* left: 838px;
+top: 1759px; */
+border-radius: 356px;
+background: #03cea4;
+
+      }
+
+
+/* styling for developers */
+.for_developers{
+  height: 1215px;
+  padding-top: 1px;
+  background: #ffffff;
+}
+.developers{
+  display: flex;
+  justify-content: space-between;
+  height: 1017px;
+  width: 1290px;
+  margin: 98px 50px 100px 100px;
+  background: palevioletred;
+}
+
+.text_note{
+  height: 413px;
+  width: 520px;
+  margin-top: 304px;
+  color: #273043;
+}
+
+.text_note h6{
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 11px;
+letter-spacing: 1.5px;
+text-align: left;
+
+}
+.text_note h3{
+  margin-top: 40px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+.text_note p{
+ margin-top: 40px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  
+}
+
+.text_note a{
+ 
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 1.25px;
+text-align: left;
+color: #03cea4;
+}
+
+.topics{
+  display: grid;
+  grid-template-columns: auto auto;
+ 
+  width: 620px;
+ 
+font-size: 34px;
+font-style: normal;
+font-weight: 900;
+line-height: 37px;
+letter-spacing: 0.25px;
+text-align: left;
+color: #eeeeee;
+}
+
+.js_{
+  background: #17255A;
+}
+.git_{
+  background: #03cea4;
+}
+.react_{
+  background: #eac435;
+  color: #17255A;
+}
+.node_{
+  background: #2d1e2f;
+}
+.mongo_{
+  background: #273043;
+}
+.heroku_{
+  background: #f5772f;
+}
+
+/* styling for designers */
+
+.for_designers{
+  height: 1215px;
+  padding-top: 1px;
+  background: #ffffff;
+}
+.designers{
+  display: flex;
+  justify-content: space-between;
+  height: 1017px;
+  width: 1290px;
+  margin: 98px 50px 100px 100px;
+  background: palevioletred;
+}
+
+.text_note{
+  height: 413px;
+  width: 520px;
+  margin-top: 304px;
+  color: #273043;
+}
+
+.text_note h6{
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 11px;
+letter-spacing: 1.5px;
+text-align: left;
+
+}
+.text_note h3{
+  margin-top: 40px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+.text_note p{
+ margin-top: 40px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  
+}
+
+.text_note a{
+ 
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 17px;
+letter-spacing: 1.25px;
+text-align: left;
+color: #03cea4;
+}
+
+.topics{
+  display: grid;
+  grid-template-columns: auto auto;
+ 
+  width: 620px;
+ 
+font-size: 34px;
+font-style: normal;
+font-weight: 900;
+line-height: 37px;
+letter-spacing: 0.25px;
+text-align: left;
+color: #eeeeee;
+}
+
+.ui_{
+  background: #17255A;
+}
+.ux_{
+  background: #f5772f;
+}
+.thinking{
+  background: #eac435;
+  color: #17255A;
+}
+.architecture{
+  background: #2d1e2f;
+}
+.copy_write{
+  background: #e13f29;
+}
+.brand{
+  background: #03cea4;
+}
+
+/* styling for meet the experts */
+.meet{
+  height: 792px ;
+  background: #eeeeee;
+  padding-top: 1px;
+  color: #273043;
+}
+
+.meet_con{
+  display: flex;
+  justify-content: space-between;
+  height: 599.4px;
+  width: 1240px ;
+  margin: 100px 50px 92.6px 150px;
+}
+
+.experts{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+}
+
+.experts h6{
+ margin-top: 25px;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: 1px;
+letter-spacing: 0.5px;
+text-align: left;
+
+}
+
+.experts p{
+ 
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0.5px;
+text-align: left;
+
+}
+
+.note{
+  width: 507.45px;
+  height: 362px ;
+}
+
+.note h3{
+margin-top: 120px;
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+line-height: 66px;
+letter-spacing: -0.5px;
+text-align: left;
+
+}
+
+.note p{
+  margin-top: 60px;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.5px;
+text-align: left;
+
+}
+
+.frequent{
+  height: 898px;
+  background: #eeeeee;
+  padding-top: 1px;
+}
+
+.freq_con{
+  height: 711.16px;
+  width: 656px;
+  margin: 89px 470px 97.84px 314px;
+  color: #273043;
+}
+
+.asked_questions{
+  height: 461.16px;
+  width: 500px;
+}
+
+.journals{
+  width: 100%;
+  height: 1113px;
+  background: #eeeeee;
+  padding-top: 1px;
+  background: purple;
+}
+
+.journ_con{
+  display: flex;
+  flex-direction: column;
+  height: 929px;
+  width: 1340px;
+  margin: 91px 50px 93px 50px;
+}
+
+.journ_con h2{
+ 
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 66px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  
+}
+
+.journ_con a{
+  margin-top: 30px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 1.25px;
+  text-align: left;
+  
+}
+
+.journal{
+  display: flex;
+ 
+  height: 700px;
+  width: 1340px;
+ 
+  color: #273043;
+  margin: 100px 50px 93px 50px;
+  
+}
+
+
+.journal h4{
+  
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 37px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  
+}
+
+.journal p{
+  
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.4000000059604645px;
+text-align: left;
+
+}
+
+.mentions{
+  
+  height: 243px;
+  padding-top: 1px;
+  background: yellow;
+}
+.mentions h2{
+  margin: 108px 1247px 108px 50px;
+background: pink; 
+font-size: 24px;
+font-style: normal;
+font-weight: 900;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.mention{
+  display: flex;
+  justify-content: space-between;
+  height: 43px;
+  width: 1021px;
+  background: powderblue;
+  margin: -135px 100px 100px 319px;
+}
