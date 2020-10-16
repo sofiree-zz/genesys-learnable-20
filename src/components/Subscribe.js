@@ -6,11 +6,8 @@ import React, {Component} from 'react';
 class Subscription extends React.Component{
     render(){
         return(
-            <div>
-            
-                <section className="subscribe">
-                
-                {/* option for subscriptions */}
+            <div>          
+                <section className="subscribe">    
                     <div className="subs">
                         
                             <p className="sub_link">
@@ -18,17 +15,18 @@ class Subscription extends React.Component{
                                 are doing and new learning<br/>
                                 opportunities
                             </p>
+                      
+                            <div>
+                                <form  >               
+                                    <input type="email" id="email" name="email" placeholder="Your Email"/>
+                                </form> 
+                                <a href="#">View Privacy Policy</a>
+                            </div>
 
-                            
-
-                            <form className="sub_form" >               
-                                <div className="email_">
-                                <input type="email" id="email" name="email" placeholder="Your Email"/>
-                                <a href="#">View Privacy Policy</a> 
-                                </div>                          
-                            </form>                             
-                    </div>
-                     <input type="submit" id="subscribe" name="subscribe" value="SUBSCRIBE"/>   
+                            <div>
+                            <input type="submit" id="subscribe" name="subscribe" value="SUBSCRIBE"/>                       
+                            </div>
+                    </div>                   
                 </section>
             </div>
             

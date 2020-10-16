@@ -12,37 +12,51 @@ class FooterNote extends React.Component{
     render(){
         return(
             <footer className="footer_">
-                <a href="/Softwaredeveloper">BUILD SOFTWARE</a>
-                <a href="/Productdesigner">DESIGN DIFFERENT</a>
-                <a href="/Apply">APPLY YOUR KNOWLEDGE</a>
-                <a href="/FAQ">FAQ</a>
+                <div className="footer_con">
+                    <div className="footer_deets">
+                        <div className="footer_links">
+                            <a href="/Softwaredeveloper">BUILD SOFTWARE</a>
+                            <a href="/Productdesigner">DESIGN DIFFERENT</a>
+                            <a href="/Apply">APPLY YOUR KNOWLEDGE</a>
+                            <a href="/FAQ">FAQ</a>
+                        </div>
+                        <div className="footer_contacts">
+                            <p>
+                            Our Local campus center: Kilometer 7,<br/>
+                            Enugu/Port Harcourt, Expressway,<br/>
+                            Centenary City, Enugu, Nigeria.
+                            </p>
 
-                <img id="footer_img" src={Dev}/>
+                             <a href="#" >GET IN TOUCH</a>
+                        </div>
+                        <div className="headto_dev">                         
+                            <img id="footer_img" src={Dev}/>
+                            <div className="footer_para">
+                                <p>
+                                    Learnable is proud to be<br/>
+                                    a collaborative effort of<br/>
+                                    all the arms of our<br/>
+                                     product team
+                                </p>
 
-                <p>
-                    Learnable is proud to be a collaborative
-                    effort of all the arms of our product team
-                </p>
-
-                <a href="#" >HEAD TO DEVSTUDIO</a>
-
-                <p>
-                    Our Local campus center: Kilometer 7,
-                    Enugu/Port Harcourt, Expressway,
-                    Centenary City, Enugu, Nigeria.
-                </p>
-
-                <a href="#" >GET IN TOUCH</a>
-
-                <div className="social_links">
-                    <a id="twitter" href="#"><img src={Twitter}/></a>                   
-                    <a id="facebook" href="#"><img src={Facebook}/></a>
-                    <a id="linkedin" href="#"><img src={LinkedIn}/></a>
-                    <a id="instagram" href="#"><img src={Instagram}/></a>
-                    <a id="youtube" href="#"><img src={YouTube}/></a>
-                    <a id="vimeo" href="#"><img src={Vimeo}/> </a>                  
+                                 <a href="#" >HEAD TO DEVSTUDIO</a>
+                            </div>
+                        </div>
+                    </div>
+                    {/* socials */}
+                    <div className="footer_socials">
+                        
+                        <div className="social_links">
+                            <a id="twitter" href="#"><img src={Twitter}/></a>                   
+                            <a id="facebook" href="#"><img src={Facebook}/></a>
+                            <a id="linkedin" href="#"><img src={LinkedIn}/></a>
+                            <a id="instagram" href="#"><img src={Instagram}/></a>
+                            <a id="youtube" href="#"><img src={YouTube}/></a>
+                            <a id="vimeo" href="#"><img src={Vimeo}/> </a>                  
+                        </div>
+                        <div><p>Genesys 2020    PRIVACY STATEMENT</p></div>
+                    </div>
                 </div>
-                <div><p>Genesys 2020    PRIVACY STATEMENT</p></div>
             </footer>
         );
     }
