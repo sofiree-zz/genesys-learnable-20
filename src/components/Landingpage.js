@@ -142,7 +142,7 @@ class HomePage extends React.Component{
                     </section>
 
                     {/* showing the team */}
-                    <section className="learnable">
+                    <section className="learnable_1">
                         <div className="intro_notes2">
                             <img className="learn_img" src={Team}/>
                             <div className="text_">

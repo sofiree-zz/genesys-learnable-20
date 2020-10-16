@@ -11,21 +11,32 @@ class Application extends React.Component{
         return(
             <div>
                 <div className="content3">
-                    <section className="text_note">
-                        <h2>Apply Your knowledge</h2>
-                        <p>
-                            Before you’re done with Learnable, you will apply everything 
-                            you’ve learned. You’ll be part of a team made up of 2 designers 
-                            and 4 developers. You’ll get to work alongside the Genesys team on projects 
-                            and we’ll teach you how “the sauce” is made. By combining technology, design, and great ideas, 
-                            your team will have the unique opportunity to collaborate with the Genesys team to bring your own 
-                            concept to life, from the first pen sketches to the final functioning product. You’ll then get to show 
-                            off your special project to everyone.
-                        </p>
-                    </section>
-                        <img id="app_1" src={Apply1}/>
-                    <div>
-                        <img id="app_2" src={Apply2}/>
+                        <section className="text_note">
+                            <div>
+                                <h2>Apply Your knowledge</h2>
+                                <p>
+                                    Before you’re done with Learnable, you will apply everything<br/>
+                                    you’ve learned. You’ll be part of a team made up of 2 designers <br/>
+                                    and 4 developers. You’ll get to work alongside the Genesys team<br/>
+                                    on projects and we’ll teach you how “the sauce” is made. By<br/>
+                                    combining technology, design, and great ideas, your team will<br/> 
+                                    have the unique opportunity to collaborate with the Genesys<br/>
+                                    team to bring your own concept to life, from the first pen<br/> 
+                                    sketches to the final functioning product. You’ll then get to show<br/> 
+                                    off your special project to everyone.
+                                </p>
+                            </div>
+
+                            <div className="app_1">
+                                <img src={Apply1}/>
+                            </div>
+                        </section>
+
+                        <div className="app_2">
+                            <img  src={Apply2}/>
+                        </div>
+
+                    <div className="articleofarticles">
                         <section className="articles">
                             <article id="art_1">
                                 <h3>How To Get In</h3>
@@ -64,7 +75,6 @@ class Application extends React.Component{
                                 We will join you on your journey to build that career of your dreams and 
                                 provide all the help, support and love that we can muster along the way!
                             </article>
-
                         </section>
                     </div>    
                 </div> 

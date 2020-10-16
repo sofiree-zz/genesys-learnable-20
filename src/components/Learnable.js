@@ -153,7 +153,7 @@ class LearnableHomepage extends React.Component{
                 </section>
 
 {/* unusal learning experience */}
-                <section className="learnable">
+                <section className="learnable_2">
                     <div className="intro_notes2">
                         
                             <img className="learn_img" src={Learn}/>
@@ -258,7 +258,7 @@ class LearnableHomepage extends React.Component{
                 </section>
 
 {/* our culture */}
-                <section className="learnable">
+                <section className="learnable_3">
                     <div className="intro_notes2">
                              
                             <img className="learn_img" src={Culture}/> 
@@ -279,7 +279,7 @@ class LearnableHomepage extends React.Component{
                 </section>
 
 {/* learning can be fun */}
-                <section className="learnable2">
+                <section className="learnable20">
                     <div className="intro_notes3">                       
                         <div className="text__">
                             <h2>Learning can Be Fun...</h2>
@@ -369,7 +369,7 @@ class LearnableHomepage extends React.Component{
             </section>
 
 {/*Anti classroom learning */}
-                <section className="learnable2">
+                <section className="learnable20">
                     <div className="intro_notes3">
                         <div className="text__">
                             <h3>Learning Doesn't Always Have To Be In The Classroom</h3>
@@ -387,7 +387,7 @@ class LearnableHomepage extends React.Component{
                 </section>
 
 {/*Apply Knowledge */}
-            <section className="learnable">
+            <section className="learnable_1">
                 <div className="intro_notes2">
                     <img className="learn_img" src={Culture}/>
                     <div className="text_">
