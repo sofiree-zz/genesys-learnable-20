@@ -271,13 +271,35 @@ text-align: left;
 }
 
 .footer_socials{
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
   height: 57px;
   width: 272px;
   margin: -156px 584px 100px 584px;
   background: cornflowerblue;
 }
+
+.social_links{
+  display: flex;
+  justify-content: space-between;
+  
+  width: 272px;
+  height: 22px;
+}
+.social_links_para{
+  height: 13px;
+  width: 257px;
+  margin-top: 24px;
+  margin-left: 7px;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 11px;
+letter-spacing: 1.5px;
+text-align: left;
+}
+
 
 
 

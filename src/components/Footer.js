@@ -54,7 +54,7 @@ class FooterNote extends React.Component{
                             <a id="youtube" href="#"><img src={YouTube}/></a>
                             <a id="vimeo" href="#"><img src={Vimeo}/> </a>                  
                         </div>
-                        <div><p>Genesys 2020    PRIVACY STATEMENT</p></div>
+                        <div className="social_links_para"><p> © Genesys 2020    PRIVACY STATEMENT</p></div>
                     </div>
                 </div>
             </footer>
