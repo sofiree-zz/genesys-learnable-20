@@ -30,7 +30,7 @@ class Footer extends React.Component{
                              <a href="#" >GET IN TOUCH</a>
                         </div>
                         <div className="headto_dev">                         
-                            <img id="footer_img" src={Dev}/>
+                            <img className="footer_img" src={Dev}/>
                             <div className="footer_para">
                                 <p>
                                     Learnable is proud to be<br/>

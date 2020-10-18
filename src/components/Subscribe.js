@@ -16,7 +16,7 @@ class Subscribe extends React.Component{
                                 opportunities
                             </p>
                       
-                            <div>
+                            <div className="sub_form">
                                 <form  >               
                                     <input type="email" id="email" name="email" placeholder="Your Email"/>
                                 </form> 
