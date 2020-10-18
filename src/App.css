@@ -1701,3 +1701,163 @@ margin-top: 50px;
   }
 
  /* end */
+
+ /* journal */
+
+ .content4{
+   height: 2761px;
+   padding-top: 1px;
+   background: orange;
+ }
+
+ .HJ{
+   display: flex;
+   justify-content: space-around;
+   
+   height: 438px;
+   margin: 70px 50px 0px 50px;
+
+   background: #eeeeee;
+ }
+
+ .heading_{
+  color: #17255a;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 106px;
+  letter-spacing: -1.5px;
+  text-align: left;
+  
+ }
+
+ .button_{
+  height: 36px;
+  width: 118px;
+  
+  margin-top: 182px;
+  border-radius: 4px;
+  
+ }
+
+ .heroJ{
+   display: flex;
+ 
+  width: 1262.71px;
+   height: 574px;
+   margin: -106px 143.72px 100px 30px;
+   background: purple;
+   padding-top: 1px;
+ }
+
+ .app_3{
+  height: 574px;
+  width: 730.7111206054688px;
+  
+ }
+
+ .inspiration{
+  height: 514.567626953125px;
+  width: 447px;
+ margin: 30px 0px 29px 85px;
+  border-radius: 35px;
+  
+ }
+ .heroJ a{
+ 
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 1.25px;
+  text-align: left;
+  color: #03cea4;
+  
+ }
+
+ .heroJ h3{
+ 
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #17255a;
+ }
+
+ .heroJ p{
+ 
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+  color: #273043;
+ }
+
+ .david {
+  display: flex;
+ 
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+  color: #273043;
+ }
+
+ .journalofjournals{
+  height: 1586.9560546875px;
+  width: 1341px;
+  margin: 100px 40px 175px 60pxpx;
+ 
+  background: #e13f29;
+ }
+
+  .journals_{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-row-gap: 90px;
+   
+   
+ }
+
+ .journ{
+  height: 700px;
+  width: 313px;
+ }
+
+ .journ h6{
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 1.25px;
+  text-align: left;
+  color: #03cea4;
+ }
+
+ .journ h2{
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 37px;
+  letter-spacing: 0.25px;
+  text-align: left;
+ }
+
+ .journ p{
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+ }
+
+ .loadbutton{
+ margin: 40px 600px 71.04px 600px;
+ }
