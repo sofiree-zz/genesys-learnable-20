@@ -237,9 +237,9 @@ class Learnable extends React.Component{
                 </section>
 
 {/* eligible? */}
-                <section className="learnable2">
-                    <div className="intro_notes3">
-                        <div className="text__">
+                <section className="eligible">
+                    <div className="intro_notes7">
+                        <div className="text______">
                             <h3>Who Is Eligible?</h3>
                             <p>
                             To be a participant of lernable, you need to be a young and passionate person interested in launching a super tech career. 
@@ -253,22 +253,23 @@ class Learnable extends React.Component{
                             </p>
                         </div>
 
-                        <img className="learn_img2" src={Eligible}/>
+                        <img className="eligible_" src={Eligible}/>
                     </div>
                     
                 </section>
 
 {/* our culture */}
-                <section className="learnable_3">
-                    <div className="intro_notes2">
+                <section className="culture">
+                    <div className="intro_notes8">
                              
-                            <img className="learn_img" src={Culture}/> 
-                            <div className="play_">
-                               <img  src={Play}/>
-                            </div>
+                            
+                            {/* <div className="cul_con"> */}
+                            <img className="culture_" src={Culture}/>
+                               <img className="play_"  src={Play}/>
+                            {/* </div> */}
                         
-                        <div className="text_">
-                            <h2>Our Culture</h2>
+                        <div className="text_______">
+                            <h3>Our Culture</h3>
                             <p>
                                 Our culture are the unspoken things that make us who we are at <br/>Genesys. To become one of us, you need to be like the rest of us.<br/> 
                                 We believe that excellence is a culture, and we are committed to a philosophy<br/> of consistent improvement in everything we do. 
@@ -280,10 +281,10 @@ class Learnable extends React.Component{
                 </section>
 
 {/* learning can be fun */}
-                <section className="learnable20">
-                    <div className="intro_notes3">                       
-                        <div className="text__">
-                            <h2>Learning can Be Fun...</h2>
+                <section className="learn_fun">
+                    <div className="intro_notes9">                       
+                        <div className="text________">
+                            <h3>Learning can Be Fun...</h3>
                             <p>
                                 We believe learning should be a fun experience. 
                                 For this reason, we don’t do all the learning in the classroom.<br/>
@@ -298,7 +299,7 @@ class Learnable extends React.Component{
                                 Trust us when we say we know how to have fun.
                             </p>              
                         </div>
-                        <img className="learn_img2" src={Collage1}/>
+                        <img className="fun_" src={Collage1}/>
                     </div>
                     
                 </section>
@@ -370,9 +371,9 @@ class Learnable extends React.Component{
             </section>
 
 {/*Anti classroom learning */}
-                <section className="learnable20">
-                    <div className="intro_notes3">
-                        <div className="text__">
+                <section className="anti_class">
+                    <div className="intro_notes9">
+                        <div className="text________">
                             <h3>Learning Doesn't Always Have To Be In The Classroom</h3>
                             <p>
                             We have designed other learning activities that aren’t <br/>classroom-based. 
@@ -382,7 +383,7 @@ class Learnable extends React.Component{
                             Hey! We’ll even teach you <br/>how to run a business during the Learnable Business Sessions.
                             </p>
                         </div>
-                        <img className="learn_img2" src={Collage2}/>
+                        <img className="anti_" src={Collage2}/>
                     </div>
                     
                 </section>

@@ -206,7 +206,7 @@ background: pink;
 .intro_notes2{
 display: flex;
 height: 580px;
-width: 1290px;
+
 margin: 100px 100px 100px 50px;
 
 background: red;
@@ -219,7 +219,7 @@ background: red;
 }
 
 .text_{
-margin: 199px 0px 199px 100px;
+margin: 100px 0px 199px 10px;
 }
 
 .text_ h3{
@@ -256,7 +256,7 @@ background: orange;
 .intro_notes3{
   display: flex;
   height: 580px;
-  width: 1290px;
+  
   margin: 100px 100px 100px 50px;
   
   background: black;
@@ -292,6 +292,7 @@ background: orange;
     height: auto;
   }
 /* end */
+
 
 
 
@@ -358,7 +359,7 @@ background: orange;
   .other_con{
     display: flex;
     height: 576px;
-  width: 1190px;
+  
   margin: 100px 150px 103px 50px;
   
   background: red;
@@ -804,20 +805,22 @@ text-align: left;
       height: 536px;
       padding-top: 1px;
       background: #eeeeee;
+      
     }
 
     .stat_of_stat{
       display: flex;
       justify-content: space-around;
-      margin: 325px 277px 96px 277px;
+      margin: 325px 277px 96px 207px;
       width: 886px;
       height: 115px;
+     
     }
 /* end */
 
 /* secone video on learnable page */
     .video{
-      /* width: 1290px; */
+     
       height: 920px;
       margin: -1000px 0px 0px 0px;
       background: orange;
@@ -835,7 +838,7 @@ text-align: left;
     
       height: 631px;
      
-      
+      margin: 171px 0px 0px 0px;
     }  
 
     
@@ -844,7 +847,7 @@ text-align: left;
       width: 100%;
       height: auto;
       
-      margin: 171px 0px 0px 0px;
+     
     } 
 
     /* end */
@@ -855,7 +858,7 @@ text-align: left;
       justify-content: space-between;
       height: 250px;
       width: 516px;
-      margin-left: 820px;
+      margin-left: 760px;
       margin-top: -690px; 
       text-align: center;
     }
@@ -956,7 +959,7 @@ text-align: left;
         font-size: 17px;
         font-style: normal;
         font-weight: 400;
-        line-height: 28px;
+        line-height: 20px;
         letter-spacing: 0.5px;
         text-align: left;
       }
@@ -989,7 +992,7 @@ text-align: left;
         .intro_notes7{
         display: flex;
         height: 580px;
-        width: 1290px;
+        
         margin: 100px 100px 100px 50px;
         
         background: red;
@@ -1002,7 +1005,7 @@ text-align: left;
         }
         
         .text_____{
-        margin: 199px 0px 199px 100px;
+        margin: 10px 0px 199px 10px;
         }
         
         .text_____ h3{
@@ -1218,6 +1221,140 @@ color: #03cea4;
 /* end */
 
 
+
+/* Eligible start */
+
+.eligible{
+  height: 780px;
+ 
+left: 0px;
+padding-top:1px;
+background: orange;
+}
+
+.intro_notes7{
+  display: flex;
+  height: 580px;
+  
+  margin: 100px 100px 100px 50px;
+  
+  background: black;
+  }
+
+  .text______{
+    margin: 10px 10px 199px 0px;
+  }
+
+  .text______ h3{
+    font-style:normal;
+  font-weight: 900;
+  font-size: 38px;
+  color: #17255A;
+  
+  line-height: 40px;
+  text-transform: capitalize;
+  }
+
+  
+  .eligible_{
+    max-width: 100%;
+    height: auto;
+  }
+/* end */
+
+
+/* culture */
+.culture{
+  height: 780px;
+   
+  left: 0px;
+  padding-top:1px;
+  background: pink;
+  }
+  
+  .intro_notes8{
+  display: flex;
+  height: 580px;
+  margin: 100px 100px 100px 50px;
+  
+  background: red;
+  }
+  
+
+  .culture_{
+    max-width: 100%;
+    height: auto;
+  
+  }
+
+  .play_{
+    height: 56px;
+width: 56px;
+margin-left: -300px;
+margin-top: 300px;
+
+  }
+  
+  .text_______{
+  margin: 80px 0px 199px 270px;
+  }
+  
+  .text_______ h3{
+    font-style:normal;
+    font-weight: 900;
+    font-size: 38px;
+    color: #17255A;
+    
+    line-height: 40px;
+    text-transform: capitalize;
+  }
+  
+
+/* end */
+
+
+/* learning can be fun */
+
+.learn_fun{
+  height: 780px;
+ 
+left: 0px;
+padding-top:1px;
+background: orange;
+}
+
+.intro_notes9{
+  display: flex;
+  height: 580px;
+  
+  margin: 100px 100px 100px 50px;
+  
+  background: pink;
+  }
+
+  .text________{
+    margin: 10px 10px 199px 0px;
+  }
+
+  .text________ h3{
+    font-style:normal;
+  font-weight: 900;
+  font-size: 38px;
+  color: #17255A;
+  
+  line-height: 40px;
+  text-transform: capitalize;
+  }
+
+  
+  .fun_{
+    max-width: 100%;
+    height: auto;
+  }
+
+/* end */
+
+
 /* /* styling for meet the experts  */
 .meet{
   height: 792px ;
@@ -1266,7 +1403,7 @@ color: #03cea4;
 }
 
 .note h3{
-  margin-top: 120px;
+  margin-top: 12px;
   font-size: 60px;
   font-style: normal;
   font-weight: 900;
@@ -1287,6 +1424,50 @@ color: #03cea4;
 /* end */
 
 
+/* anti class learning */
+
+.anti_class{
+  height: 780px;
+ 
+left: 0px;
+padding-top:1px;
+background: orange;
+}
+
+.intro_notes9{
+  display: flex;
+  height: 580px;
+  
+  margin: 100px 100px 100px 50px;
+  
+  background: pink;
+  }
+
+  .text________{
+    margin: 10px 10px 199px 0px;
+  }
+
+  .text________ h3{
+    font-style:normal;
+  font-weight: 900;
+  font-size: 38px;
+  color: #17255A;
+  
+  line-height: 40px;
+  text-transform: capitalize;
+  }
+
+  
+  .anti_{
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+/* end */
+
+
 
 /* /* FAQ  */
 
@@ -1300,6 +1481,7 @@ color: #03cea4;
   height: 711.16px;
   width: 656px;
   margin: 89px 470px 97.84px 314px;
+  background: yellow;
   
 }
 
@@ -1360,8 +1542,8 @@ color: #17255a;
 }
 
 .journal{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
+ 
   
   height: 700px;
   
@@ -1370,13 +1552,19 @@ color: #17255a;
 
 }
 
-.journal .j1{
+.j1{
 width: 313px;
+height: 700px;
+}
+
+.j1 img{
+  width: 100%;
+  height: auto;
 }
 
 
 .journal h4{
-  font-size: 34px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 900;
   line-height: 37px;
