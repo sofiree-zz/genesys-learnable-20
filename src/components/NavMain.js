@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import {Link, withRouter} from 'react-router-dom';
 import Logo from "./images/logo.svg";
 
-class Navigation extends React.Component{
+class NavMain extends React.Component{
     render(){
         return(             
                     <header className="header1">
@@ -25,4 +25,4 @@ class Navigation extends React.Component{
             );
     }
 }
-export default  withRouter(Navigation); 
+export default  withRouter(NavMain); 
