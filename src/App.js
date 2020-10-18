@@ -3,14 +3,14 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
 
 import NavMain from './components/NavMain';
-import Navhome from './components/Navhome';
-import Arrowdown from './components/Arrowdown';
-import Arrownup from './components/Arrowup';
-import Landingpage from './components/Landingpage';
+import NavHome from './components/NavHome';
+import ArrowDown from './components/ArrowDown';
+import ArrowUp from './components/ArrowUp';
+import LandingPage from './components/LandingPage';
 import Learnable  from './components/Learnable';
 import Footer from './components/Footer';
-import Softwaredeveloper from './components/Softwaredeveloper';
-import Productdesigner from './components/Productdesigner';
+import SoftwareDeveloper from './components/SoftwareDeveloper';
+import ProductDesigner from './components/ProductDesigner';
 import Apply from './components/Apply';
 import Journal from './components/Journal';
 import FAQ from './components/FAQ';
@@ -24,15 +24,15 @@ class App extends React.Component{
                     <NavMain/>
                         <Switch>
                             <Route path="/Learnable" exact component={()=> <Learnable/>}/>
-                            <Route path="/" exact component={()=> <Landingpage/>}/>
+                            <Route path="/" exact component={()=> <LandingPage/>}/>
                         </Switch>
                     
 
-                    <Navhome/>
+                    <NavHome/>
                         <Switch>
                             <Route path="/Learnable" exact component={()=> <Learnable/>}/>
-                            <Route path="/Softwaredeveloper" exact component={()=> <Softwaredeveloper/>}/>
-                            <Route path="/Productdesigner" exact component={()=> <Productdesigner/>}/>
+                            <Route path="/SoftwareDeveloper" exact component={()=> <SoftwareDeveloper/>}/>
+                            <Route path="/ProductDesigner" exact component={()=> <ProductDesigner/>}/>
                             <Route path="/Apply" exact component={()=> <Apply/>}/>
                             <Route path="/Journal" exact component={()=> <Journal/>}/>
                             <Route path="/Faq" exact component={()=> <FAQ/>}/>
