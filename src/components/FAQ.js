@@ -1,6 +1,6 @@
 import React from 'react';
 import NavMain from './NavMain';
-import Navhome from './Navhome';
+import NavHome from './NavHome';
 import Faq11 from "./images/faq11.png";
 import Drop from "./images/dropdown.svg";
 import Subscribe from './Subscribe';

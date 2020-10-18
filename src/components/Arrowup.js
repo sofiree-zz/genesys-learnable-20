@@ -5,7 +5,7 @@ import Up from "./images/arrowup.svg";
 
 
 
-class Arrowsup extends React.Component{
+class ArrowUp extends React.Component{
     render(){
         return(
             <div className="arr_con1">
@@ -18,4 +18,4 @@ class Arrowsup extends React.Component{
     }
 }
 
-export default Arrowsup;
+export default ArrowUp;

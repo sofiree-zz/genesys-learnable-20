@@ -5,7 +5,7 @@ import Down from "./images/arrowdown.svg";
 
 
 
-class Arrowsdown extends React.Component{
+class ArrowDown extends React.Component{
     render(){
         return(
             <div className="arr_con">
@@ -18,4 +18,4 @@ class Arrowsdown extends React.Component{
     }
 }
 
-export default Arrowsdown;
+export default ArrowDown;

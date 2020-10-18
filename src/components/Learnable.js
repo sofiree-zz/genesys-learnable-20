@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import NavMain from './NavMain';
-import Navhome from './Navhome';
+import NavHome from './NavHome';
 import Video from "./images/learnablevideo.png";
 import Play from "./images/Playbutton.svg";
 import Cutout from "./images/Cutout 1.svg";
@@ -16,7 +16,7 @@ import Experts3 from "./images/expertphoto3.png";
 import Experts4 from "./images/expertphoto4.png";
 import Experts5 from "./images/expertphoto5.png";
 import Collage2 from "./images/phototile2.png";
-import Knowledge from "./images/knowledge.png";
+
 import Drop from "./images/dropdown.svg";
 import Journal from "./images/journal.png";
 import Journal1 from "./images/journal1.png";
@@ -29,17 +29,17 @@ import Wired from "./images/wiredlogo.svg";
 import Webvision from "./images/visionlogo.svg";
 import Interaction from "./images/interactionSAlogo.svg";
 import Subscribe from './Subscribe';
-import Arrowsdown from './Arrowdown';
-import Arrowsup from './Arrowup';
+import ArrowDown from './ArrowDown';
+import ArrowUp from './ArrowUp';
 import Footer from './Footer';
 
 
 
-class LearnableHomepage extends React.Component{
+class Learnable extends React.Component{
     render(){
         return(
             <div>
-             <Navhome/> 
+             <NavHome/> 
                 <section className="intro_learn">
     {/* introduction to learnable */}
                     <div className="learn1">                    
@@ -91,10 +91,11 @@ class LearnableHomepage extends React.Component{
                     </section>  
 {/* learnable video */}
                         <section className="video">
-                        <Arrowsdown/>
-                             <div className="image__"> 
-                           
+                        
+                            <div className="image__"> 
+                            <ArrowDown/>
                                 <div className="img_con2">
+                               
                                     <img className="vid_1" src={Video}/>
                                    
                                     <div className="img2">
@@ -102,7 +103,7 @@ class LearnableHomepage extends React.Component{
                                     <p>#WeAreGenesys</p>
                                     </div>
                                     
-                                 </div> 
+                                </div> 
                             </div>
 
                             <div className="sphereofspheres">
@@ -153,13 +154,13 @@ class LearnableHomepage extends React.Component{
                 </section>
 
 {/* unusal learning experience */}
-                <section className="learnable_2">
-                    <div className="intro_notes2">
+                <section className="unusual">
+                    <div className="intro_notes7">
                         
-                            <img className="learn_img" src={Learn}/>
+                            <img className="unusual_img" src={Learn}/>
                         
-                        <div className="text_">
-                            <h3>An Unusual Learning <br/>Experience</h3>
+                        <div className="text_____">
+                            <h3>An Unusual Learning Experience</h3>
                             <p>
                                 At Genesys, we believe in the learning
                                 processes as much as we believe in<br/>the results. 
@@ -470,28 +471,31 @@ class LearnableHomepage extends React.Component{
 {/* Journal */}
             <section className="journals">
                 <div className="journ_con">
+                    <div>
                     <h2>Journal</h2>
                     <a href="#">VIEW ALL</a>
+                    </div>
+                    
                     <div className="journal">
-                        <div>
+                        <div className="j1">
                             <img src={Journal}/>
                             <a href="#"><h6>INSPIRATION</h6></a>
                             <h4>Learn Design Thinking like a Pro and Build Projects that people will care about</h4>
                             <p>David Mong, Apr 9, 2020</p>
                         </div>
-                        <div>
+                        <div className="j1">
                             <img src={Journal1}/>
                             <a href="#"><h6>INSPIRATION</h6></a>
                             <h4>Learn Design Thinking like a Pro and Build Projects that people will care about</h4>
                             <p>David Mong, Apr 9, 2020</p>
                         </div>
-                        <div>
+                        <div className="j1">
                             <img src={Journal2}/>
                             <a href="#"><h6>INSPIRATION</h6></a>
                             <h4>Learn Design Thinking like a Pro and Build Projects that people will care about</h4>
                             <p>David Mong, Apr 9, 2020</p>
                         </div>
-                        <div>
+                        <div className="j1">
                             <img src={Journal3}/>
                             <a href="#"><h6>INSPIRATION</h6></a>
                             <h4>Learn Design Thinking like a Pro and Build Projects that people will care about</h4>
@@ -512,10 +516,10 @@ class LearnableHomepage extends React.Component{
                         <img src={Interaction}/>
                     </div>
             </section>
-            <Arrowsup/>
+            <ArrowUp/>
             <Subscribe/>
         </div>
         );
     }
 }
-export default LearnableHomepage;
+export default Learnable;

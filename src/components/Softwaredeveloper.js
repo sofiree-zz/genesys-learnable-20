@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import NavMain from './NavMain';
-import Navhome from './Navhome';
+import NavHome from './NavHome';
 import Cutout from "./images/Cutout 1.svg";
 import Developer from "./images/devphoto.png";
 import Subscribe from "./Subscribe";
 import Footer from './Footer';
-import Arrowsup from './Arrowup';
+import ArrowUp from './ArrowUp';
 
-class Softwaredevs  extends React.Component{
+class SoftwareDeveloper  extends React.Component{
     render(){
         return(
             <div>           
@@ -84,10 +84,10 @@ class Softwaredevs  extends React.Component{
                     
                     
                 </section>
-                <Arrowsup/>
+                <ArrowUp/>
                 <Subscribe/>
         </div>
         );
     }
 }
-export default Softwaredevs;
+export default SoftwareDeveloper;

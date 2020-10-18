@@ -12,10 +12,10 @@ import Team from "./images/besteam.png";
 
 
 import Subscribe from './Subscribe';
-import Arrowsdown from './Arrowdown';
-import Arrowsup from './Arrowup';
+import ArrowDown from './ArrowDown';
+import ArrowUp from './ArrowUp';
 
-class HomePage extends React.Component{
+class LandingPage extends React.Component{
     render(){
         return(
             <div>
@@ -39,7 +39,7 @@ class HomePage extends React.Component{
                             </p>
                             </div>
                             
-                            <Arrowsdown/>
+                            <ArrowDown/>
                             <div className="image">
                                
                                 <div className="img_con">
@@ -75,7 +75,7 @@ class HomePage extends React.Component{
                     </section>
 
                     {/* the agora details*/}
-                    <section className="learnable2">
+                    <section className="agora">
                         <div className="intro_notes3">
                             <div className="text__">
                                 <h3>Agora</h3>
@@ -93,11 +93,11 @@ class HomePage extends React.Component{
                     </section>
 
                     {/* startzone details*/}
-                    <section className="learnable">
-                        <div className="intro_notes2">
-                            <img className="learn_img" src={StartZone} />
+                    <section className="startZone">
+                        <div className="intro_notes4">
+                            <img className="start_zone" src={StartZone} />
 
-                            <div className="text_">
+                            <div className="text___">
                             <h3>StartZone</h3>
                             <p>
                                 The business environment is harsh for
@@ -142,10 +142,10 @@ class HomePage extends React.Component{
                     </section>
 
                     {/* showing the team */}
-                    <section className="learnable_1">
-                        <div className="intro_notes2">
-                            <img className="learn_img" src={Team}/>
-                            <div className="text_">
+                    <section className="team">
+                        <div className="intro_notes5">
+                            <img className="team_" src={Team}/>
+                            <div className="text____">
                                 <h3>The Best Team In The World</h3>
                                 <p>
                                     We work with the most amazing people the industry has to offer.<br/>
@@ -157,7 +157,7 @@ class HomePage extends React.Component{
                         </div>
                         
                     </section>
-                    <Arrowsup/>
+                    <ArrowUp/>
 
                     <Subscribe/>
                     {/* footer hold socials, more links etc.... */}          
@@ -166,4 +166,4 @@ class HomePage extends React.Component{
         );
     }
 }
-export default HomePage;
+export default LandingPage;

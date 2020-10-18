@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 
 
 
-class Subscription extends React.Component{
+class Subscribe extends React.Component{
     render(){
         return(
             <div>          
@@ -33,4 +33,4 @@ class Subscription extends React.Component{
         );
     }
 }
-export default Subscription;
+export default Subscribe;

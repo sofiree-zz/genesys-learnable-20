@@ -8,7 +8,7 @@ import YouTube from "./images/youtube-logotype 1.svg";
 import Vimeo from "./images/vimeo 1vec.svg";
 
 
-class FooterNote extends React.Component{
+class Footer extends React.Component{
     render(){
         return(
             <footer className="footer_">
@@ -61,4 +61,4 @@ class FooterNote extends React.Component{
         );
     }
 }
-export default FooterNote;
+export default Footer;

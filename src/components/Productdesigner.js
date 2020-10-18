@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import NavMain from './NavMain';
+import NavHome from './NavHome';
 import Cutout from "./images/Cutout 1.svg";
 import Designer from "./images/designer.png";
 import Subscribe from "./Subscribe";
 import Footer from './Footer';
-import Arrowsup from './Arrowup';
+import ArrowUp from './ArrowUp';
 
-class Designers extends React.Component{
+class ProductDesigner extends React.Component{
     render(){
         return(
             <div>
@@ -92,10 +93,10 @@ class Designers extends React.Component{
                             </div>                                       
                     </div>
                 </section>
-                <Arrowsup/>
+                <ArrowUp/>
                 <Subscribe/>
             </div>
         );
     }
 }
-export default Designers;
+export default ProductDesigner;

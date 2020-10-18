@@ -1,15 +1,16 @@
 import React, {Component} from 'react';
 import NavMain from './NavMain';
-import Navhome from './Navhome';
+import NavHome from './NavHome';
 import Apply2 from "./images/apply2.png";
-import Journal from "./images/journal.png";
+import JournalPic from "./images/journal.png";
 import Journal1 from "./images/journal1.png";
 import Journal2 from "./images/journal2.png";
 import Journal3 from "./images/journal3.png";
 import Subscribe from './Subscribe';
+import ArrowUp from './ArrowUp';
 import Footer from './Footer';
 
-class Blog extends React.Component{
+class Journal extends React.Component{
     render(){
         return(
             <div>
@@ -42,7 +43,7 @@ class Blog extends React.Component{
                     <section className="journalofjournals">
                         <div className="journals">
                             <div>
-                                <img src={Journal}/>
+                                <img src={JournalPic}/>
                                 <h6>INSPIRATION</h6>
                                 <h2>Learn Design Thinking like a Pro and Build Projects that people will care about</h2>
                                 <p>David Mong, Apr 9, 2020</p>
@@ -94,10 +95,11 @@ class Blog extends React.Component{
                     </section>
 
                 </div>
+                <ArrowUp/>
                 <Subscribe/>
             </div>
 
         );
     }
 }
-export default Blog;
+export default Journal;

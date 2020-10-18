@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import NavMain from './NavMain';
-import Navhome from './Navhome';
+import Navhome from './NavHome';
 import Apply1 from "./images/apply1.png";
 import Apply2 from "./images/apply2.png";
 import Subscribe from './Subscribe';
 import Footer from './Footer'; 
-import Arrowsup from './Arrowup';
+import ArrowUp from './ArrowUp';
 
-class Application extends React.Component{
+class Apply extends React.Component{
     render(){
         return(
             <div>
@@ -86,13 +86,12 @@ class Application extends React.Component{
                         </div>
                 </div> 
                 
-                
-                <Arrowsup/>
+                <ArrowUp/>
                 <Subscribe/>  
-           
+                
                    
         </div>
         );
     }
 }
-export default Application;
+export default Apply;
