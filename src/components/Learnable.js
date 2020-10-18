@@ -415,54 +415,41 @@ class Learnable extends React.Component{
             <section className="frequent">
                 <div className="freq_con">
                 <h2>FAQ</h2>
-                <dl className="asked_questions">
-{/* faq 1 */}
-                    <dt>
-                        <button aria-expanded="false" aria-controls="faq1_ans">
-                            How many people can attend a course? <img src={Drop}/> 
-                        </button>
-                    </dt>
-                    <dd >
-                        <p id="faq1_ans" class="ans"></p>
-                    </dd>
-{/* faq 2 */}
-                    <dt>
-                        <button aria-expanded="false" aria-controls="faq2_ans">
-                            What's the learning experience like? <img src={Drop}/> 
-                        </button>
-                    </dt>
-                    <dd >
-                        <p id="faq2_ans" class="ans"></p>
-                    </dd>
-{/* faq 3 */}
-                    <dt>
-                        <button aria-expanded="false" aria-controls="faq3_ans">
-                            Who are the coaches? <img src={Drop}/> 
-                        </button>
-                    </dt>
-                    <dd >
-                        <p id="faq3_ans" class="ans"></p>
-                    </dd>
-{/* faq 4 */}
-                    <dt>
-                        <button aria-expanded="false" aria-controls="faq4_ans">
-                            How far in advance should we book? <img src={Drop}/> 
-                        </button>
-                    </dt>
-                    <dd >
-                        <p id="faq4_ans" class="ans"></p>
-                    </dd>
-{/* faq 5 */}
-                    <dt>
-                        <button aria-expanded="false" aria-controls="faq5_ans">
-                            Can you customize your courses? <img src={Drop}/> 
-                        </button>
-                    </dt>
-                    <dd >
-                        <p id="faq5_ans" class="ans">Sophia</p>
-                    </dd>
+                <dl className="asked_questions_">
+                    {/* faq 1 */}
+                    <dt aria-expanded="false" aria-controls="faq1_ans">
+                                    How many people can attend a course? <img src={Drop}/>   
+                            </dt>
+                            <dd id="faq1_ans" class="ans" > </dd>
+                            <hr/>
+    {/* faq 2 */}
+                            <dt aria-expanded="false" aria-controls="faq2_ans">
+                                 What's the learning experience like? <img src={Drop}/>      
+                            </dt>
+                            <dd id="faq2_ans" class="ans" ></dd>
+                            <hr/>
+    {/* faq 3 */}
+                            <dt aria-expanded="false" aria-controls="faq3_ans">
+                                    Who are the coaches? <img src={Drop}/> 
+                            </dt>
+                            <dd id="faq3_ans" class="ans"> </dd>
+                            <hr/>
+    {/* faq 4 */}
+                            <dt aria-expanded="false" aria-controls="faq3_ans">
+                               How far in advance should I book? <img src={Drop}/> 
+                            </dt>
+                            <dd id="faq3_ans" class="ans"> </dd>   
+                            <hr/>
+    {/* faq 5 */}
+                            <dt aria-expanded="false" aria-controls="faq3_ans">
+                                CAn you customize your coourses? <img src={Drop}/> 
+                            </dt>
+                            <dd id="faq3_ans" class="ans"> </dd>  
+                            <hr/>
+
+                            <a href="#">SEE ALL</a> 
                 </dl>  
-                <a href="#">SEE ALL</a> 
+               
 
                 </div>
                            

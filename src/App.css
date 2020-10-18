@@ -658,7 +658,7 @@ text-align: left;
  
   height: 57px;
   width: 272px;
-  margin: -156px 250px 100px 400px;
+  margin: -156px 250px 100px 450px;
 
   background: slateblue;
  
@@ -1300,12 +1300,25 @@ color: #03cea4;
   height: 711.16px;
   width: 656px;
   margin: 89px 470px 97.84px 314px;
-  color: #273043;
+  
 }
 
-.asked_questions{
+.freq_con h2{
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+line-height: 66px;
+letter-spacing: -0.5px;
+text-align: left;
+color: #17255a;
+
+}
+
+.asked_questions_{
   height: 461.16px;
   width: 500px;
+  margin: 184px 0px 0px 156px;
+  
 }
 /* end */
 
@@ -1861,3 +1874,71 @@ margin-top: 50px;
  .loadbutton{
  margin: 40px 600px 71.04px 600px;
  }
+/* end */
+
+
+ /* faq */
+ .content5{
+   height: 2251px;
+   padding-top: 1px;
+   background: #03cea4;
+ }
+
+ .dropdown{
+   
+   height: 1845.39px;
+   margin: 73px 51px 332.5px 100px;
+   
+   background: orange;
+ }
+
+ .faq_{
+   display: flex;
+   
+   height: 338px;
+background: chartreuse;
+ }
+
+ .faq_ h1{
+  
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 106px;
+  letter-spacing: -1.5px;
+  text-align: left;
+  color: #17255a;
+  
+ }
+
+
+ .faq_ img{
+margin-left: 455px;
+ }
+
+ .asked_questions{
+   display: inline-block;
+   width: 500px;
+   height: 1358.13px;
+   margin: 149.29px 335px 0px 370px;
+   text-align: center;
+   overflow: hidden;
+   padding-top: 1px;
+   background: #ff0000;
+ }
+
+ dt {
+   width: 500px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 40px ;
+}
+dd {
+  margin: 0;
+  padding: 0 0 0.5em 0;
+}
+
+hr{
+  background: black;
+  margin-top: 20px;
+}
