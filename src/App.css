@@ -1047,7 +1047,7 @@ text-align: left;
       
       left: 0px;
       background: #ffffff;
-      background: pink;
+     
     }
 
     .description{
@@ -1099,7 +1099,7 @@ text-align: left;
      
       height: 920px;
       margin: -1000px 0px 0px 0px;
-      background: orange;
+     
       
     } 
 
@@ -1204,13 +1204,13 @@ text-align: left;
         height: 652px;
         padding: 1px;
         background:#ffffff;
-        background: blueviolet;
+       
       }
 
       .intro_notes6{
         display: flex;
         justify-content: space-between;
-       background: blue;
+      
         height: 452px;
         margin: 100px 150px 100px 100px;
       }
@@ -1262,7 +1262,7 @@ text-align: left;
          
         left: 0px;
         padding-top:1px;
-        background: pink;
+        background:#eeeeee;
         }
         
         .intro_notes7{
@@ -1271,7 +1271,7 @@ text-align: left;
         
         margin: 100px 100px 100px 50px;
         
-        background: red;
+        
         }
         
         .unusual_img{
@@ -1505,7 +1505,7 @@ color: #03cea4;
  
 left: 0px;
 padding-top:1px;
-background: orange;
+background: #ffffff;
 }
 
 .intro_notes7{
@@ -1514,7 +1514,7 @@ background: orange;
   
   margin: 100px 100px 100px 50px;
   
-  background: black;
+ 
   }
 
   .text______{
@@ -1545,7 +1545,7 @@ background: orange;
    
   left: 0px;
   padding-top:1px;
-  background: pink;
+  background: #f5772f;
   }
   
   .intro_notes8{
@@ -1553,7 +1553,7 @@ background: orange;
   height: 580px;
   margin: 100px 100px 100px 50px;
   
-  background: red;
+  
   }
   
 
@@ -1596,7 +1596,7 @@ margin-top: 300px;
  
 left: 0px;
 padding-top:1px;
-background: orange;
+background: white;
 }
 
 .intro_notes9{
@@ -1605,7 +1605,7 @@ background: orange;
   
   margin: 100px 100px 100px 50px;
   
-  background: pink;
+ 
   }
 
   .text________{
@@ -1707,7 +1707,7 @@ background: orange;
  
 left: 0px;
 padding-top:1px;
-background: orange;
+background: white;
 }
 
 .intro_notes9{
@@ -1716,7 +1716,7 @@ background: orange;
   
   margin: 100px 100px 100px 50px;
   
-  background: pink;
+  
   }
 
   .text________{
@@ -1757,7 +1757,7 @@ background: orange;
   height: 711.16px;
   width: 656px;
   margin: 89px 470px 97.84px 314px;
-  background: yellow;
+ 
   
 }
 
@@ -1795,7 +1795,7 @@ color: #17255a;
   height: 929px;
   
   margin: 91px 50px 93px 50px;
-  background: yellow;
+ 
 }
 
 .journ_con h2{
