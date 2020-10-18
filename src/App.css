@@ -123,13 +123,13 @@
 /* landing page styling intro*/
 .contain_1{
   
-  background: yellow;
+  background: #ffffff;
   padding: 1px 0px 0px 0px;
 } 
 
 .intro{
   margin: 126px 0px 0px 61px;
-  background-color: purple;
+ 
 }
 
 @media only screen and (max-width:992px){
@@ -144,7 +144,7 @@ width: 654px;
 left: 100px;
 top: 270px;
 
-background-color: blue;
+
 
 }
 
