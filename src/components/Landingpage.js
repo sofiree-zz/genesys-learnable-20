@@ -120,19 +120,29 @@ class LandingPage extends React.Component{
                                 {/* genesysignite imagery */}
                                 <div className="ignite">
                                   <img src={Ignite} />
-                                   <a href="#"><p>Genesys<br/>Ignite</p></a>
+                                  
+                                  <div className="ign_text">
+                                  <a href="#"><p>Genesys<br/>Ignite</p></a>
+                                  </div>
+                                   
                                 </div>
 
                                 {/* codeville imagery */}
                                 <div className="code_ville">
                                     <img src={Ville}/>
-                                    <a href="#"><p>Codeville</p></a>
+                                    <div className="vill_text">
+                                    <a  href="#"><p>Codeville</p></a>
+                                    </div>
+                                   
                                 </div>
 
                                 {/* summer code imagery */}
                                 <div className="pink_">
                                     <img src={Pink}/>
+                                    <div className="pin_text">
                                     <a href="#"><p>Pink Summer<br/> of Code</p></a>
+                                    </div>
+                                   
                                 </div>      
                             </div>
 
