@@ -5,18 +5,13 @@ body{
 }
 
 
-@media only screen and (max-width:992px){
+ @media only screen and (max-width:1440px){
   body{
-   
     width: 100%;
-    background-color: #ffffff;
-    padding: 100px 0px 0px 0px;
-    
-  background: chartreuse;
-  }
-
-  
-}
+   
+    padding: 140px 0px 0px 0px;
+  } 
+} 
 
 /* NavMain */
 .header1{
@@ -113,6 +108,25 @@ body{
  
 }
 
+@media only screen and (max-width:992px){
+  .header2{
+    width: 100%;
+    height: auto;
+    /* position: fixed;
+    overflow: hidden;
+    margin: 0px; */
+   
+  
+  }
+
+.nav2 ul{
+  flex-wrap: wrap;
+  
+}
+
+
+}
+
 .nav2 ul{
   display: flex;
 }
@@ -143,6 +157,10 @@ body{
 
 
 
+
+
+
+
 /* landing page styling intro*/
 .contain_1{
   
@@ -156,8 +174,10 @@ body{
 }
 
 @media only screen and (max-width:992px){
+
+
  .intro{
-  
+ 
    height: auto;
    margin: 0px;
    padding-top:1px ;
@@ -182,10 +202,13 @@ top: 270px;
     
   }
 
-  
+  .intro_notes .nOne{
+    text-align: center;
+  }
 
   .intro_notes .nTwo{
     font-size: 15px;
+    text-align: center;
   }
 }
 
@@ -1053,6 +1076,8 @@ text-align: center;
 
 
   
+
+
   
 
 /* /*  learnable component styling */
@@ -1064,6 +1089,7 @@ text-align: center;
       background: #eac435;
     }
 
+    
     .intro_learn h3{  
       font-size: 34px;
       font-style: normal;
@@ -1075,6 +1101,23 @@ text-align: center;
 
     }
 
+@media only screen and (max-width:992px){
+  .intro_learn{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 1px;
+    margin: 0px;
+  }
+
+  .intro_learn h3{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+  }
+}
+
     .intro_learn p{    
       font-size: 15px;
       font-style: normal;
@@ -1082,6 +1125,15 @@ text-align: center;
       line-height: 24px;
       letter-spacing: 0.25px;
       text-align: left;
+    }
+
+    @media Only Screen and (max-width:992px){
+      .intro_learn p{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: #17255a;
+      }
     }
 
     .learn2 a{
@@ -1094,6 +1146,16 @@ text-align: center;
       text-transform: uppercase;
       color: #17255A;
     }
+
+
+    @media Only Screen and (max-width:992px){
+      .learn2 a{
+        font-size: 15px;
+        font-weight: normal;
+        text-align: center;
+      }
+    }
+
 
     .learn1{
       margin: auto;
@@ -1115,12 +1177,30 @@ text-align: center;
      
     }
 
+    @media Only Screen and (max-width:992px){
+     .desc_con{
+       width: 100%;
+       height: 600px;
+       padding-top: 1px;
+     }
+    }
+
+
     .description{
       height: 400px;
       width: 513px;
       margin-left: 100px;
       margin-top: 50px;
     }
+
+    @media Only Screen and (max-width:992px){
+      .description{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+      }
+     }
+
 
     .description h3{    
       font-size: 96px;
@@ -1132,6 +1212,17 @@ text-align: center;
       color: #17255A;
     }
 
+    @media Only Screen and (max-width:992px){
+      .description h3{
+       font-size: 50px;
+       text-align: center;
+
+      }
+      .description h3 br{
+        display: none;
+      }
+     }
+
     .description p{     
       font-size: 16px;
       font-style: normal;
@@ -1141,32 +1232,72 @@ text-align: center;
       margin-top: -32px;
     }
 
+    @media Only Screen and (max-width:992px){
+      .description p{
+       font-size: 15px;
+       text-align: center;
+       color: #17255a;
+      }
+     }
+
     .stats{
       
       height: 536px;
       padding-top: 1px;
       background: #eeeeee;
+     
       
     }
-
+@media only screen and (max-width:992px){
+  .stats{
+    width: auto;
+    height: auto;
+    padding-top: 1px;
+   
+  }
+}
+   
     .stat_of_stat{
       display: flex;
       justify-content: space-around;
       margin: 325px 277px 96px 207px;
       width: 886px;
       height: 115px;
-     
+    }
+
+    @media only screen and (max-width:992px){
+      .stat_of_stat{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        width: auto;
+        height: auto;
+        margin: 300px 0px 0px 0px;
+      }
+
+      .stat_of_stat h2{
+        color: #03cea4;
+      }
     }
 /* end */
+
+
+
 
 /* secone video on learnable page */
     .video{
      
       height: 920px;
-      margin: -1000px 0px 0px 0px;
-     
-      
+      margin: -1000px 0px 0px 0px; 
     } 
+
+    @media Only Screen and (max-width:992px){
+      .video{
+        width: 100%;
+        height: auto;
+        margin: -750px 0px 0px 0px;
+      }
+     }
 
     .image__{
        height: 631px;
@@ -1174,25 +1305,63 @@ text-align: center;
       
         display: flex; 
     }
+
+    @media Only Screen and (max-width:992px){
+      .image__{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+      }
+     }
+    
     
     .img_con2{
-    
       height: 631px;
-     
       margin: 171px 0px 0px 0px;
     }  
 
-    
+    @media Only Screen and (max-width:992px){
+      .img_con2{
+        width: 100%;
+        height: auto;
+      }
+     }
+
+
+    .img3{
+      height: auto;
+     width: auto;
+      margin-top: -130px;
+    margin-left: 200px;
+    }
+
+    .img3 img{
+      height: 56px;
+      width: 53.20775604248047px;
+    }
+
+    .img3 p{
+      margin-top: 0px;
+      margin-left: -50px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 110.19%; 
+     
+      letter-spacing: 0.1px;
+      color: #eeeeee;
+    }
 
     .vid_1{
       width: 100%;
-      height: auto;
-      
-     
+      height: auto;  
     } 
 
     /* end */
    
+
+
+
     /* /* styling for those circle thingys  */
     .sphereofspheres{
       display: flex;
@@ -1204,6 +1373,16 @@ text-align: center;
       text-align: center;
     }
 
+    @media only screen and (max-width:992px){
+      .sphereofspheres{
+        align-items: center;
+        height: 170px;
+        width: 346px;
+        margin-left: 75px;
+        margin-top: -350px;
+      }
+    }
+
     .sphere1{
       height: 250px;
       width: 250px;
@@ -1213,7 +1392,14 @@ text-align: center;
       background: #03cea4;
     }
 
-   
+   @media only screen and (max-width:992px){
+     .sphere1{
+      height: 170px;
+      width: 170px;
+      border-radius: 125px;
+      
+     }
+   }
 
   .sphere1 a h6{
     margin-top: 95px;
@@ -1235,6 +1421,15 @@ text-align: center;
     color: #273043;
   }
 
+
+  @media only screen and (max-width:992px){
+    .sphere1 a h6{
+    margin-top: 60px;
+    font-size: 20px;
+    }
+
+  }
+
     .sphere2{
       height: 250px;
       width: 250px;
@@ -1242,6 +1437,15 @@ text-align: center;
       top: -2px;
       border-radius: 125px;
       background: #17255a;
+    }
+
+    @media only screen and (max-width:992px){
+      .sphere2{
+       height: 170px;
+       width: 170px;
+       border-radius: 125px;
+       
+      }
     }
 
     .sphere2 a h6{
@@ -1264,12 +1468,34 @@ text-align: center;
         color: #ffffff;
       }
 
+      @media only screen and (max-width:992px){
+        .sphere2 a h6{
+        margin-top: 60px;
+        font-size: 20px;
+        }
+    
+      }
+    
+
+      /* end */
+
+
+
+
+
       /* /* styling for great people section  */
       .great_people{
         height: 652px;
         padding: 1px;
         background:#ffffff;
-       
+      }
+
+      @media only screen and (max-width:992px){
+        .great_people{
+          height: auto;
+          width: auto;
+          margin-top: 700px ;
+        }
       }
 
       .intro_notes6{
@@ -1280,11 +1506,23 @@ text-align: center;
         margin: 100px 150px 100px 100px;
       }
 
+
+      @media only screen and (max-width:992px){
+        .intro_notes6{
+          flex-direction: column-reverse;
+          height: auto;
+          width: auto;
+          margin: 0px;
+        }
+      }
+
       .textinfo{
         height: 313px;
         width: 538px;
         color: #273043;
       }
+
+     
 
       .textinfo h3{      
         font-size: 40px;
@@ -1295,6 +1533,13 @@ text-align: center;
         text-align: left;
       }
 
+      @media only screen and (max-width:992px){
+        .textinfo h3{
+          text-align: center;
+          font-size: 30px;
+        }
+      }
+
       .textinfo p{
        margin-top: 40px;
         font-size: 17px;
@@ -1303,6 +1548,13 @@ text-align: center;
         line-height: 20px;
         letter-spacing: 0.5px;
         text-align: left;
+      }
+
+      @media only screen and (max-width:992px){
+        .textinfo p{
+          text-align: center;
+          font-size: 15px;
+        }
       }
 
       .cutout{
@@ -1317,7 +1569,29 @@ text-align: center;
         background: #03cea4;
       }
 
+      @media only screen and (max-width:992px){
 
+        .cutout{
+          height: 216.32000732421875px;
+          width: 216.32000732421875px;
+          margin-left: 79px; 
+        }
+
+        .cut_out{
+          height: 216px;
+          width: 216px;
+          border-radius: 356px;
+          margin-left: 79px;
+        }
+
+
+        .cutimg img{
+          height: 223px;
+          width: 335px;
+          margin-left: -60px;
+          margin-top: -7px;
+        }
+      }
       /* end */
 
 
@@ -1328,6 +1602,14 @@ text-align: center;
         left: 0px;
         padding-top:1px;
         background:#eeeeee;
+     
+        }
+
+        @media only screen and (max-width:992px){
+          .unusual{width: auto;
+            height: auto;
+          
+          }
         }
         
         .intro_notes7{
@@ -1335,8 +1617,17 @@ text-align: center;
         height: 580px;
         
         margin: 100px 100px 100px 50px;
-        
-        
+        }
+
+        @media only screen and (max-width:992px){
+          .intro_notes7{
+            flex-direction: column;
+           
+            height: auto;
+            width: auto;
+            margin: 0px 0px 0px 0px;
+           
+          }
         }
         
         .unusual_img{
@@ -1345,8 +1636,17 @@ text-align: center;
         
         }
         
+        
+
         .text_____{
         margin: 10px 0px 199px 10px;
+        }
+
+        
+        @media only screen and (max-width:992px){
+          .text_____ h3{
+          text-align: center;
+          }
         }
         
         .text_____ h3{
@@ -1359,17 +1659,28 @@ text-align: center;
           text-transform: capitalize;
         }
         
-        .text_____ a{
+        .text_____ p{
           font-size: 15px;
         font-style: normal;
-        font-weight: 600;
+        font-weight: normal;
         line-height: 17px;
         letter-spacing: 1.25px;
         text-align: left;
-        color: #03cea4;
+        }
+
+        @media only screen and (max-width:992px){
+          .text_____ p{
+          text-align: center;
+          line-height: 24px;
+          }
+          .text_____ p br{
+          display: none;
+            }
         }
 
       /* end */
+
+
 
 /* /* styling for developers  */
 .for_developers{
@@ -1377,12 +1688,31 @@ text-align: center;
   padding-top: 1px;
   background: #ffffff;
 }
+
+@media only screen and (max-width:992px){
+  .for_developers{
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding-top: 1px;
+  }
+}
 .developers{
   display: flex;
   justify-content: space-between;
   height: 1017px;
   
   margin: 98px 50px 100px 100px;
+}
+@media only screen and (max-width:992px){
+  .developers{
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+    padding-top: 1px;
+  }
 }
 
 .text_note{
@@ -1392,6 +1722,14 @@ text-align: center;
   color: #273043;
 }
 
+@media only screen and (max-width:992px){
+  .text_note{
+    width: auto;
+    height: auto;
+   margin-top: 100px;
+  }
+}
+
 .text_note h6{
   font-size: 10px;
   font-style: normal;
@@ -1399,8 +1737,14 @@ text-align: center;
   line-height: 11px;
   letter-spacing: 1.5px;
   text-align: left;
-
 }
+@media only screen and (max-width:992px){
+  .developers .text_note h6{
+    text-align: center;
+  }
+}
+
+
 .text_note h3{
   margin-top: 40px;
   font-size: 40px;
@@ -1410,6 +1754,12 @@ text-align: center;
   letter-spacing: 0em;
   text-align: left; 
 }
+@media only screen and (max-width:992px){
+  .developers .text_note h3{
+    text-align: center;
+  }
+}
+
 
 .text_note p{
   margin-top: 40px;
@@ -1419,6 +1769,14 @@ text-align: center;
   line-height: 28px;
   letter-spacing: 0.5px;
   text-align: left; 
+}
+@media only screen and (max-width:992px){
+  .developers .text_note p{
+    text-align: center;
+  }
+  .developers .text_note p br{
+    display: none;
+  }
 }
 
 .text_note a{
@@ -1431,7 +1789,8 @@ text-align: left;
 color: #03cea4;
 }
 
-.topics{
+
+.developers .topics{
   display: grid;
   grid-template-columns: auto auto;
   width: 620px;
@@ -1442,6 +1801,18 @@ color: #03cea4;
   letter-spacing: 0.25px;
   text-align: left;
   color: #eeeeee;
+}
+@media only screen and (max-width:992px){
+.developers .topics{
+   display: grid;
+   grid-template-columns: auto;
+   height: auto;
+   width: 100%;
+   margin-top: 10px;
+   text-align: center;
+   font-size: 20px;
+   text-decoration: underline;
+ }
 }
 
 .js_{
@@ -1472,6 +1843,15 @@ color: #03cea4;
   padding-top: 1px;
   background: #eeeeee;
 }
+@media only screen and (max-width:992px){
+  .for_designers{
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding-top: 1px;
+  }
+}
+
 .designers{
   display: flex;
   justify-content: space-between;
@@ -1479,8 +1859,19 @@ color: #03cea4;
   
   margin: 98px 50px 100px 100px;
 }
+@media only screen and (max-width:992px){
+  .designers{
+    flex-direction: column-reverse;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+    padding-top: 1px;
+  }
+}
 
-.text_note{
+
+.designers .text_note_{
   height: 413px;
   
   margin-top: 304px;
@@ -1488,7 +1879,15 @@ color: #03cea4;
   color: #273043;
 }
 
-.text_note h6{
+@media only screen and (max-width:992px){
+  .designers .text_note_{
+    width: auto;
+    height: auto;
+   margin-top: 100px;
+  }
+}
+
+.text_note_ h6{
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
@@ -1497,7 +1896,13 @@ color: #03cea4;
   text-align: left;
 }
 
-.text_note h3{
+@media only screen and (max-width:992px){
+  .designers .text_note_ h6{
+    text-align: center;
+  }
+}
+
+.text_note_ h3{
   margin-top: 40px;
   font-size: 40px;
   font-style: normal;
@@ -1506,8 +1911,13 @@ color: #03cea4;
   letter-spacing: 0em;
   text-align: left;
 }
+@media only screen and (max-width:992px){
+  .designers .text_note_ h3{
+    text-align: center;
+  }
+}
 
-.text_note p{
+.text_note_ p{
   margin-top: 40px;
   font-size: 17px;
   font-style: normal;
@@ -1516,8 +1926,16 @@ color: #03cea4;
   letter-spacing: 0.5px;
   text-align: left;
 }
+@media only screen and (max-width:992px){
+  .designers .text_note_ p{
+    text-align: center;
+  }
+  .designers .text_note_ p br{
+    display: none;
+  }
+}
 
-.text_note a{
+.text_note_ a{
 font-size: 15px;
 font-style: normal;
 font-weight: 600;
@@ -1526,8 +1944,13 @@ letter-spacing: 1.25px;
 text-align: left;
 color: #03cea4;
 }
+@media only screen and (max-width:992px){
+  .text_note_ a{
+    text-align: center;
+  }
+}
 
-.topics{
+.designers .topics{
   display: grid;
   grid-template-columns: auto auto;
   width: 620px;
@@ -1539,6 +1962,19 @@ color: #03cea4;
   text-align: left;
   color: #eeeeee;
 }
+
+@media only screen and (max-width:992px){
+  .designers .topics{
+     display: grid;
+     grid-template-columns: auto;
+     height: auto;
+     width: 100%;
+     margin-top: 10px;
+     text-align: center;
+     font-size: 20px;
+     text-decoration: underline;
+   }
+  }
 
 .ui_{
   background: #17255A;
@@ -1572,8 +2008,13 @@ left: 0px;
 padding-top:1px;
 background: #ffffff;
 }
+@media only screen and (max-width:992px){
+  .eligible{
+    display: none;
+  }
+}
 
-.intro_notes7{
+.intro_notes10{
   display: flex;
   height: 580px;
   
@@ -1612,15 +2053,27 @@ background: #ffffff;
   padding-top:1px;
   background: #f5772f;
   }
+
+  @media only screen and (max-width:992px){
+    .culture{
+      height: auto;
+      margin: 0px;
+    }
+  }
   
   .intro_notes8{
   display: flex;
   height: 580px;
   margin: 100px 100px 100px 50px;
-  
-  
   }
-  
+  @media only screen and (max-width:992px){
+    .intro_notes8{
+      flex-direction: column;
+      height: auto;
+      width: auto;
+      margin: 0px;
+    }
+  }
 
   .culture_{
     max-width: 100%;
@@ -1633,11 +2086,23 @@ background: #ffffff;
 width: 56px;
 margin-left: -300px;
 margin-top: 300px;
+  }
 
+  @media only screen and (max-width:992px){
+    .play_{
+      display: none;
+    }
   }
   
   .text_______{
   margin: 80px 0px 199px 270px;
+  }
+  @media only screen and (max-width:992px){
+    .text_______{
+      height: auto;
+      width: auto;
+      margin: 0px;
+    }
   }
   
   .text_______ h3{
@@ -1649,8 +2114,17 @@ margin-top: 300px;
     line-height: 40px;
     text-transform: capitalize;
   }
-  
+  @media only screen and (max-width:992px){
+    .text_______ h3{
+      text-align: center;
+    }
+  }
 
+  @media only screen and (max-width:992px){
+    .text_______ p{
+      text-align: center;
+    }
+  }
 /* end */
 
 
@@ -1663,14 +2137,25 @@ left: 0px;
 padding-top:1px;
 background: white;
 }
+@media only screen and (max-width:992px){
+  .learn_fun{
+   height: auto;
+   width: auto;
+  }
+}
 
 .intro_notes9{
   display: flex;
   height: 580px;
-  
   margin: 100px 100px 100px 50px;
-  
- 
+  }
+  @media only screen and (max-width:992px){
+   .intro_notes9{
+      flex-direction: column-reverse;
+      height: auto;
+      width: auto;
+      margin: 0px;
+    }
   }
 
   .text________{

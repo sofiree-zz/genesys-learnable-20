@@ -59,7 +59,7 @@ class Learnable extends React.Component{
                 <section className="every_thing">
                     <div className="desc_con">
                         <div className="description">
-                            <h3>Everything<br/>Is Learnable</h3>
+                            <h3>Everything<br/> Is Learnable</h3>
                             <p>
                                 Learnable is the perfect product<br/>
                                 development internship program brought
@@ -98,9 +98,9 @@ class Learnable extends React.Component{
                                
                                     <img className="vid_1" src={Video}/>
                                    
-                                    <div className="img2">
+                                    <div className="img3">
                                     <img   src={Play}/>
-                                    <p>#WeAreGenesys</p>
+                                    <p>Discover the Learnable Experience</p>
                                     </div>
                                     
                                 </div> 
@@ -145,7 +145,7 @@ class Learnable extends React.Component{
                         </div>
                         <div className="cutout">
                             <div className="cut_out">
-                                    <div className="cut_out">
+                                    <div className="cutimg">
                                         <img  src={Cutout}/>
                                     </div>
                             </div>
@@ -218,7 +218,7 @@ class Learnable extends React.Component{
                             <div className="copy_write"><p>Copy write for Projects</p></div>
                             <div className="brand"><p>Brand Products</p></div>
                         </div>    
-                        <div className="text_note">
+                        <div className="text_note_">
                             <h6>FOR DESIGNERS</h6>
                             <h3>Design Different</h3>
                             <p>
@@ -238,7 +238,7 @@ class Learnable extends React.Component{
 
 {/* eligible? */}
                 <section className="eligible">
-                    <div className="intro_notes7">
+                    <div className="intro_notes10">
                         <div className="text______">
                             <h3>Who Is Eligible?</h3>
                             <p>
