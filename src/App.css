@@ -1513,6 +1513,7 @@ text-align: center;
           height: auto;
           width: auto;
           margin: 0px;
+         
         }
       }
 
@@ -1522,7 +1523,13 @@ text-align: center;
         color: #273043;
       }
 
-     
+      @media only screen and (max-width:992px){
+        .textinfo{
+          width: auto;
+          height: auto;
+          margin: 0px;
+        }
+      }
 
       .textinfo h3{      
         font-size: 40px;
@@ -1537,6 +1544,7 @@ text-align: center;
         .textinfo h3{
           text-align: center;
           font-size: 30px;
+          margin: 0px  
         }
       }
 
@@ -2141,26 +2149,35 @@ background: white;
   .learn_fun{
    height: auto;
    width: auto;
+  
   }
 }
 
-.intro_notes9{
+.intro_notes11{
   display: flex;
   height: 580px;
   margin: 100px 100px 100px 50px;
   }
   @media only screen and (max-width:992px){
-   .intro_notes9{
+   .intro_notes11{
       flex-direction: column-reverse;
       height: auto;
       width: auto;
       margin: 0px;
+     
     }
   }
 
   .text________{
     margin: 10px 10px 199px 0px;
   }
+  @media only screen and (max-width:992px){
+    .text________{  
+       height: auto;
+       width: auto;
+       margin: 0px;
+     }
+   }
 
   .text________ h3{
     font-style:normal;
@@ -2171,6 +2188,17 @@ background: white;
   line-height: 40px;
   text-transform: capitalize;
   }
+
+
+  @media only screen and (max-width:992px){
+    .text________  h3{  
+     text-align: center;
+     }
+
+     .text________  p{  
+      text-align: center;
+      }
+   }
 
   
   .fun_{
@@ -2188,6 +2216,13 @@ background: white;
   padding-top: 1px;
   color: #273043;
 }
+@media only screen and (max-width:992px){
+  .meet{
+    height: auto;
+    width: auto;
+  }
+}
+
 
 .meet_con{
   display: flex;
@@ -2196,12 +2231,38 @@ background: white;
   
   margin: 100px 50px 92.6px 150px;
 }
+@media only screen and (max-width:992px){
+  .meet_con{
+    flex-direction: column-reverse;
+    height: auto;
+    width: auto;
+    margin: 0px;
+  }
+}
+
 
 .experts{
   display: grid;
-  grid-template-columns: auto auto auto;
-  
+  grid-template-columns: auto auto auto; 
 }
+@media only screen and (max-width:992px){
+  .experts{
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 20px;
+    height: auto;
+    width: auto;
+  }
+  .experts .num1 img{
+    height: 161px;
+    width: 174px;
+    left: 9px;
+    top: 8475px;
+    border-radius: 200px;
+  }
+}
+
+
 
 .experts h6{
   margin-top: 25px;
@@ -2222,10 +2283,29 @@ background: white;
   text-align: left;
 }
 
+@media only screen and (max-width:992px){
+  .experts h6{
+    text-align: center;
+  }
+  .experts p{
+   text-align: center;
+  }
+}
+
+
+
 .note{
   width: 507.45px;
   height: 362px ;
   margin-left: 10px;
+}
+@media only screen and (max-width:992px){
+  .note{
+    width: auto;
+    height: auto;
+   margin-left: 0px;
+  }
+  
 }
 
 .note h3{
@@ -2237,6 +2317,11 @@ background: white;
   letter-spacing: -0.5px;
   text-align: left;
 }
+@media only screen and (max-width:992px){
+  .note h3{
+   text-align: center;
+  }
+}
 
 .note p{
   margin-top: 60px;
@@ -2246,6 +2331,12 @@ background: white;
   line-height: 28px;
   letter-spacing: 0.5px;
   text-align: left;
+}
+
+@media only screen and (max-width:992px){
+  .note p{
+    text-align: center;
+  } 
 }
 /* end */
 
@@ -2259,15 +2350,28 @@ left: 0px;
 padding-top:1px;
 background: white;
 }
+@media only screen and (max-width:992px){
+ .anti_class{
+   height: auto;
+   width: auto;
+ }
+  
+}
 
 .intro_notes9{
   display: flex;
   height: 580px;
-  
   margin: 100px 100px 100px 50px;
-  
-  
   }
+  @media only screen and (max-width:992px){
+    .intro_notes9{
+      flex-direction: column-reverse;
+      height: auto;
+      width: auto;
+      margin: 0px;
+    }
+   }
+
 
   .text________{
     margin: 10px 10px 199px 0px;
@@ -2282,18 +2386,114 @@ background: white;
   line-height: 40px;
   text-transform: capitalize;
   }
-
   
   .anti_{
     max-width: 100%;
     height: auto;
   }
-
-
-
 /* end */
 
 
+/* Apply your knowlegde */
+.apply{
+  height: 780px;
+   
+  left: 0px;
+  padding-top:1px;
+  background: #ffffff;
+  }
+  
+  @media only screen and (max-width:992px){
+    .apply{
+      height: auto;
+      background: #17255a;
+    }
+  }
+  
+  .intro_notes12{
+  display: flex;
+  height: 580px;
+  
+  margin: 100px 100px 100px 50px;
+  
+  
+  }
+  
+  @media only screen and (max-width:992px){
+    .intro_notes12{
+      height: auto;
+      width: auto;
+      flex-direction: column;
+      margin: 0px 0px 0px 0px;
+    }
+  }
+  .apply_img{
+    width: 100%;
+    height: auto;
+  }
+  
+  .text_apply{
+  margin: 50px 0px 0px 20px;
+ 
+  }
+  
+  @media only screen and (max-width:992px){
+  .text_apply{
+    text-align: center;
+     }
+     .text_apply p br{
+       display: none;
+       color: #ffffff;
+     }
+  }
+  
+  .text_apply h3{
+    font-style:normal;
+    font-weight: 900;
+    font-size: 38px;
+    color: #17255A;
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+  }
+
+  @media only screen and (max-width:992px){
+       .text_apply h3{
+         color: #ffffff;
+       }
+    }
+  
+  .text_apply p{
+    font-style:normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #273043;
+    text-align: center;
+    line-height: 28px;
+  }
+  @media only screen and (max-width:992px){
+    .text_apply p{
+      color: #ffffff;
+    }
+ }
+
+
+  .text_apply p br{
+    display: none;
+  }
+  
+  .text_apply a{
+    font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 1.25px;
+  text-align: center;
+  color: #03cea4;
+  }
+  
+
+/* end */
 
 /* /* FAQ  */
 
@@ -2302,14 +2502,29 @@ background: white;
   background: #ffffff;
   padding-top: 1px;
 }
+@media only screen and (max-width:992px){
+  .frequent{
+    height: auto;
+    width: auto;
+    margin: 0px;
+  }
+}
+
 
 .freq_con{
   height: 711.16px;
   width: 656px;
-  margin: 89px 470px 97.84px 314px;
- 
-  
+  margin: 89px 470px 97.84px 314px; 
 }
+@media only screen and (max-width:992px){
+  .freq_con{
+    height: auto;
+    width: auto;
+    margin: 0px;
+  }
+}
+
+
 
 .freq_con h2{
 font-size: 60px;
@@ -2319,14 +2534,27 @@ line-height: 66px;
 letter-spacing: -0.5px;
 text-align: left;
 color: #17255a;
-
 }
+@media only screen and (max-width:992px){
+  .freq_con h2{
+   text-align: center;
+  }
+}
+
 
 .asked_questions_{
   height: 461.16px;
   width: 500px;
   margin: 184px 0px 0px 156px;
-  
+  color: #17255A;
+}
+@media only screen and (max-width:992px){
+  .asked_questions_{
+    height: auto;
+    width: auto;
+    margin: 0px;
+    text-align: center;
+  }
 }
 /* end */
 
@@ -2338,15 +2566,27 @@ color: #17255a;
   background: #eeeeee;
   padding-top: 1px;
 }
+@media only screen and (max-width:992px){
+  .journals{
+    height: auto;
+    width: auto;
+    margin: 0px;
+  }
+}
 
 .journ_con{
- 
-  
   height: 929px;
-  
   margin: 91px 50px 93px 50px;
- 
 }
+@media only screen and (max-width:992px){
+  .journ_con{
+    height: auto;
+    width: auto;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+  }
+}
+
 
 .journ_con h2{
   font-size: 40px;
@@ -2365,18 +2605,34 @@ color: #17255a;
   line-height: 17px;
   letter-spacing: 1.25px;
   margin-left: 50px;
+  color: #03cea4;
 }
+
+@media only screen and (max-width:992px){
+  .journ_con a{
+  text-align: center;
+  color: #03cea4;
+  }
+}
+
 
 .journal{
   display: flex;
- 
-  
   height: 700px;
-  
   color: #273043;
   margin-top: 86px;
-
 }
+
+@media only screen and (max-width:992px){
+  .journal{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin: 50px 0px 0px 0px;
+  }
+}
+
 
 .j1{
 width: 313px;
@@ -2395,7 +2651,13 @@ height: 700px;
   font-weight: 900;
   line-height: 37px;
   letter-spacing: 0.25px;
-  text-align: left;
+  text-align: left; 
+}
+@media only screen and (max-width:992px){
+  .journal h4{
+   text-align: center;
+   text-decoration: underline;
+  }
 }
 
 .journal p{
@@ -2405,6 +2667,11 @@ height: 700px;
   line-height: 21px;
   letter-spacing: 0.4000000059604645px;
   text-align: left;
+}
+@media only screen and (max-width:992px){
+  .journal p{
+    text-align: center;
+  }
 }
 /* end */
 
@@ -2416,6 +2683,21 @@ height: 700px;
   padding-top: 1px;
   background: #ffffff;
 }
+@media only screen and (max-width:992px){
+  .mentions{
+    height: auto;
+    width: auto;
+    margin: 0px;
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+}
+
+
+
 .mentions h2{
   margin: 108px 1247px 108px 50px;
   font-size: 24px;
@@ -2425,13 +2707,29 @@ height: 700px;
   letter-spacing: 0px;
   text-align: left;
 }
+@media only screen and (max-width:992px){
+  .mentions h2{
+   margin: 50px 0px 10px 0px;
+    text-align: center;
+  }
+}
 
 .mention{
   display: flex;
   justify-content: space-between;
   height: 43px;
-  
   margin: -135px 100px 100px 319px;
+}
+@media only screen and (max-width:992px){
+  .mention{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+    height: auto;
+    width: auto;
+    margin: 50px auto 50px auto;
+  }
 }
 /* end */
 

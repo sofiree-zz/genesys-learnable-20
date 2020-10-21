@@ -282,7 +282,7 @@ class Learnable extends React.Component{
 
 {/* learning can be fun */}
                 <section className="learn_fun">
-                    <div className="intro_notes9">                       
+                    <div className="intro_notes11">                       
                         <div className="text________">
                             <h3>Learning can Be Fun...</h3>
                             <p>
@@ -316,7 +316,7 @@ class Learnable extends React.Component{
                                 <p>Managing Director</p>
                             </div>
 
-                            <div className="num2">
+                            <div className="num1">
                                 <div>                                 
                                     <div><img src={Experts1}/></div>                                   
                                 </div>
@@ -324,7 +324,7 @@ class Learnable extends React.Component{
                                 <p>Learnable<br/>Coordinator</p>
                             </div>
 
-                            <div className="num3">
+                            <div className="num1">
                                 <div>                                    
                                     <div><img src={Experts2}/></div>                                   
                                 </div>
@@ -332,7 +332,7 @@ class Learnable extends React.Component{
                                 <p>Scrum Professional</p>
                             </div>
 
-                            <div className="num4">
+                            <div className="num1">
                                 <div>                                 
                                     <div><img src={Experts3}/></div>                                 
                                 </div>
@@ -340,7 +340,7 @@ class Learnable extends React.Component{
                                 <p>Ass. Learnable<br/>Coordinator</p>
                             </div>
 
-                            <div className="num5">
+                            <div className="num1">
                                 <div>                                  
                                     <div><img src={Experts4}/></div>                                   
                                 </div>
@@ -348,7 +348,7 @@ class Learnable extends React.Component{
                                 <p>Desing Lead</p>
                             </div>
 
-                            <div className="num6">
+                            <div className="num1">
                                 <div>                                   
                                     <div><img src={Experts5}/></div>                                   
                                 </div>
@@ -389,11 +389,11 @@ class Learnable extends React.Component{
                 </section>
 
 {/*Apply Knowledge */}
-            <section className="learnable_1">
-                <div className="intro_notes2">
-                    <img className="learn_img" src={Culture}/>
-                    <div className="text_">
-                    <h2>Apply Your Knowledge</h2>
+            <section className="apply">
+                <div className="intro_notes12">
+                    <img className="apply_img" src={Culture}/>
+                    <div className="text_apply">
+                    <h3>Apply Your Knowledge</h3>
                     <p>
                         Before you’re done with Learnable, you will apply 
                         everything you’ve<br/> learned. You’ll be part of a team 
@@ -420,41 +420,38 @@ class Learnable extends React.Component{
                     {/* faq 1 */}
                     <dt aria-expanded="false" aria-controls="faq1_ans">
                                     How many people can attend a course? <img src={Drop}/>   
-                            </dt>
-                            <dd id="faq1_ans" class="ans" > </dd>
-                            <hr/>
-    {/* faq 2 */}
-                            <dt aria-expanded="false" aria-controls="faq2_ans">
-                                 What's the learning experience like? <img src={Drop}/>      
-                            </dt>
-                            <dd id="faq2_ans" class="ans" ></dd>
-                            <hr/>
-    {/* faq 3 */}
-                            <dt aria-expanded="false" aria-controls="faq3_ans">
-                                    Who are the coaches? <img src={Drop}/> 
-                            </dt>
-                            <dd id="faq3_ans" class="ans"> </dd>
-                            <hr/>
-    {/* faq 4 */}
-                            <dt aria-expanded="false" aria-controls="faq3_ans">
-                               How far in advance should I book? <img src={Drop}/> 
-                            </dt>
-                            <dd id="faq3_ans" class="ans"> </dd>   
-                            <hr/>
-    {/* faq 5 */}
-                            <dt aria-expanded="false" aria-controls="faq3_ans">
-                                CAn you customize your coourses? <img src={Drop}/> 
-                            </dt>
-                            <dd id="faq3_ans" class="ans"> </dd>  
-                            <hr/>
+                    </dt>
+                    <dd id="faq1_ans" class="ans" > </dd>
+                    <hr/>
+{/* faq 2 */}
+                    <dt aria-expanded="false" aria-controls="faq2_ans">
+                            What's the learning experience like? <img src={Drop}/>      
+                    </dt>
+                    <dd id="faq2_ans" class="ans" ></dd>
+                    <hr/>
+{/* faq 3 */}
+                    <dt aria-expanded="false" aria-controls="faq3_ans">
+                            Who are the coaches? <img src={Drop}/> 
+                    </dt>
+                    <dd id="faq3_ans" class="ans"> </dd>
+                    <hr/>
+{/* faq 4 */}
+                    <dt aria-expanded="false" aria-controls="faq3_ans">
+                        How far in advance should I book? <img src={Drop}/> 
+                    </dt>
+                    <dd id="faq3_ans" class="ans"> </dd>   
+                    <hr/>
+{/* faq 5 */}
+                    <dt aria-expanded="false" aria-controls="faq3_ans">
+                        CAn you customize your coourses? <img src={Drop}/> 
+                    </dt>
+                    <dd id="faq3_ans" class="ans"> </dd>  
+                    <hr/>
 
-                            <a href="#">SEE ALL</a> 
+                    <a href="#">SEE ALL</a> 
                 </dl>  
-               
-
-                </div>
-                           
-            </section>
+            </div>                       
+        </section>
 
 {/* Journal */}
             <section className="journals">
