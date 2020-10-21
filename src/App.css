@@ -3257,24 +3257,39 @@ color: #273043;
   }
  /* end */
 
- 
+
  /* journal */
 
  .content4{
    height: 2761px;
    padding-top: 1px;
-   background: orange;
+ }
+ @media only screen and (max-width:992px){
+   .content4{
+     width: auto;
+     height: auto;
+     margin: 0px;
+   }
  }
 
  .HJ{
    display: flex;
    justify-content: space-around;
-   
    height: 438px;
    margin: 70px 50px 0px 50px;
-
    background: #eeeeee;
  }
+ @media only screen and (max-width:992px){
+  .HJ{
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    
+  }
+}
+
 
  .heading_{
   color: #17255a;
@@ -3284,43 +3299,77 @@ color: #273043;
   line-height: 106px;
   letter-spacing: -1.5px;
   text-align: left;
-  
  }
+ @media only screen and (max-width:992px){
+  .heading_{
+    font-size: 50px;
+    text-align: center;
+  }
+}
 
  .button_{
   height: 36px;
   width: 118px;
-  
   margin-top: 182px;
   border-radius: 4px;
-  
  }
+ @media only screen and (max-width:992px){
+.button_{
+  margin: -5px auto auto 150px;
+
+}
+
+  .button_ button{
+    width: 200px;
+    border-radius: 4px;
+  }
+}
+
 
  .heroJ{
    display: flex;
- 
   width: 1262.71px;
    height: 574px;
    margin: -106px 143.72px 100px 30px;
-   background: purple;
    padding-top: 1px;
  }
 
- .app_3{
-  height: 574px;
-  width: 730.7111206054688px;
-  
- }
+ @media only screen and (max-width:992px){
+  .heroJ{
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin: 50px 0px 0px 0px;
+    background: #eeeeee;
+   
+  }
+}
+
+
+
+.app_3{
+  width: 100%;
+  height: auto;
+}
+ 
 
  .inspiration{
   height: 514.567626953125px;
   width: 447px;
- margin: 30px 0px 29px 85px;
-  border-radius: 35px;
-  
+ margin: 30px 0px 0px 10px; 
  }
+ @media only screen and (max-width:992px){
+  .inspiration{
+   height: auto;
+   width: auto;
+   margin: 50px 0px 0px 0px;
+   text-align: center;
+  
+  }
+}
+
+
  .heroJ a{
- 
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
@@ -3328,62 +3377,106 @@ color: #273043;
   letter-spacing: 1.25px;
   text-align: left;
   color: #03cea4;
-  
  }
 
  .heroJ h3{
- 
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 900;
-  line-height: 44px;
+  line-height: 35px;
   letter-spacing: 0em;
   text-align: left;
+  margin-top: 0px;
   color: #17255a;
  }
+ @media only screen and (max-width:992px){
+  .inspiration h3{
+    text-align: center;
+  }
+}
 
  .heroJ p{
- 
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 20px;
   letter-spacing: 0.15000000596046448px;
   text-align: left;
+  margin-top: -20px;
   color: #273043;
  }
+ @media only screen and (max-width:992px){
+  .inspiration p{
+    text-align: center;
+  }
+}
 
- .david {
-  display: flex;
  
-  font-size: 13px;
+ .david p{
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0.4000000059604645px;
-  text-align: left;
+  text-align: center;
   color: #273043;
  }
+ @media only screen and (max-width:992px){
+  .david p{
+    margin-top: 10px;
+  }
+}
+
+ .david img{
+   height: 40px;
+   width: 40px;
+ }
+
+
 
  .journalofjournals{
   height: 1586.9560546875px;
   width: 1341px;
   margin: 100px 40px 175px 60pxpx;
- 
-  background: #e13f29;
  }
+ @media only screen and (max-width:992px){
+  .journalofjournals{
+    width: auto;
+    height: auto;
+    margin: 50px 0px 0px 0px;
+  }
+}
 
   .journals_{
    display: grid;
    grid-template-columns: auto auto auto auto;
    grid-row-gap: 90px;
-   
-   
  }
+ @media only screen and (max-width:992px){
+  .journals_{
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+}
 
  .journ{
   height: 700px;
   width: 313px;
+ }
+ @media only screen and (max-width:992px){
+  .journ{
+    width: auto;
+    height: auto;
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+
+ .journ img{
+   width: 100%;
+   height: auto;
  }
 
  .journ h6{
@@ -3395,6 +3488,13 @@ color: #273043;
   text-align: left;
   color: #03cea4;
  }
+ @media only screen and (max-width:992px){
+  .journ h6{
+    text-align: center;
+  }
+}
+
+
 
  .journ h2{
   font-size: 34px;
@@ -3404,6 +3504,13 @@ color: #273043;
   letter-spacing: 0.25px;
   text-align: left;
  }
+ @media only screen and (max-width:992px){
+  .journ h2{
+    text-align: center;
+  }
+}
+
+
 
  .journ p{
   font-size: 13px;
@@ -3413,10 +3520,22 @@ color: #273043;
   letter-spacing: 0.4000000059604645px;
   text-align: left;
  }
+ @media only screen and (max-width:992px){
+  .journ p{
+    text-align: center;
+  }
+}
 
  .loadbutton{
  margin: 40px 600px 71.04px 600px;
  }
+ @media only screen and (max-width:992px){
+  .loadbutton{
+    height: 40px;
+    background: none;
+    margin: 25px 0px 25px 200px;
+  }
+}
 /* end */
 
 
