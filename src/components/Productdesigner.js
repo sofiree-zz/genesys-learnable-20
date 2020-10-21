@@ -16,9 +16,7 @@ class ProductDesigner extends React.Component{
                         <div className="dev_con1">
                             <div className="dev_note">
                                 <h5>
-                                    The<br/>
-                                    Learnable<br/>
-                                    Product Designer
+                                    The<br/> Learnable<br/> Product Designer
                                 </h5>
 
                                 <p>

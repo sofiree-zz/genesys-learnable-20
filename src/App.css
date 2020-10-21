@@ -2974,7 +2974,6 @@ margin-top: -40px;
 
 
 /* product designer */
-
 .cut_out2{
   height: 338px;
   width: 338px;
@@ -2982,15 +2981,34 @@ margin-top: -40px;
   background: #f5772f;
   margin-left: 215px;
   margin-top: 26px;
-
 }
+
+@media only screen and (max-width:992px){
+  .cut_out2{
+    height: 216px;
+    width: 216px;
+    margin: 100px 50px 0px 50px;
+    border-radius: 356px;
+  }
+}
+
 
 .cut_out2 img{
-width: 500.69px;
-height: 330.96px;
-margin-left: -82px;
-margin-top: 10px;
+    width: 500.69px;
+    height: 330.96px;
+    margin-left: -82px;
+    margin-top: 10px;
 }
+@media only screen and (max-width:992px){
+  .cut_out2 img{
+      height: 216px;
+      width: 216px;
+      margin-left: 0px;
+      margin-top: 4px;
+  }
+}
+
+
 
 .quote1{
 font-size: 60px;
@@ -3003,15 +3021,44 @@ text-align: left;
 margin-top: -1850px;
 color: #f5772f;
 }
+@media only screen and (max-width:992px){
+  .quote1{
+    height: auto;
+    width: auto;
+    margin-top: -1850px;
+    font-size: 34px;
+    text-align: center;
+    line-height: 37px;
+    letter-spacing: 0.25px;
+  }
+}
+
 
 .des_{
  margin: 86px 0px 85px 108px;
+}
+@media only screen and (max-width:992px){
+  .des_{
+    margin: 100px 0px 0px 0px;
+  }
+}
+
+.des_ img{
+  width: 100%;
+  height: auto;
 }
 
 .dev_note_3{
 height: 608px;
 width: 524px; 
 margin: 85px 250px 0px 254px;
+}
+@media only screen and (max-width:992px){
+  .dev_note_3{
+   height: auto;
+   width: auto;
+   margin: 0px;
+  }
 }
 
 .dev_note_3 h6{  
@@ -3023,27 +3070,50 @@ letter-spacing: 0em;
 text-align: left;
 color: #273043;
 } 
+@media only screen and (max-width:992px){
+  .dev_note_3 h6{
+    text-align: center;
+  }
+}
 
 .p1 p{
-font-size: 17px;
-font-style: normal;
-font-weight: 400;
-line-height: 25px;
-letter-spacing: 0.5px;
-text-align: left;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-top: -50px;
+ }
+ @media only screen and (max-width:992px){
+  .p1 p br{
+    display: none;
+  }
+   .p1 p{
+     text-align: center;
+   }
+ } 
 
-margin-top: -50px;
-  } 
 
 .p2 p{
-font-size: 13px;
-font-style: normal;
-font-weight: 400;
-line-height: 21px;
-letter-spacing: 0.4000000059604645px;
-text-align: left;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
   } 
+  @media only screen and (max-width:992px){
+    .p2 p br{
+      display: none;
+    }
+     .p2 p{
+       text-align: center;
+     }
+   } 
   /* end */
+
+
 
 
    /* apply  */
